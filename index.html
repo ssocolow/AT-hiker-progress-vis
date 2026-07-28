@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Appalachian Trail Hiker Tracker</title>
+  <meta name="description" content="Track Sarah's progress hiking the Appalachian Trail from Springer Mountain to Mount Katahdin. Live GPS coordinates, mileage stats, and trail map.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <!-- Full Screen Map -->
+  <div id="map"></div>
+
+  <!-- Mobile Toggle Button -->
+  <button id="mobile-toggle" aria-label="Toggle dashboard">
+    <i data-lucide="menu"></i>
+  </button>
+
+  <!-- Floating Dashboard Sidebar -->
+  <aside id="sidebar">
+    <div class="sidebar-content">
+      <!-- Header -->
+      <header class="header">
+        <h1 id="hiker-title"><span class="highlight">Audrey</span> on the AT</h1>
+        <p class="subtitle">Appalachian Trail Thru-Hike</p>
+      </header>
+
+      <!-- Stats Grid -->
+      <section class="section stats-grid">
+        <div class="stat-card">
+          <span class="stat-label">Miles Done</span>
+          <span class="stat-value" id="miles-done">0.0</span>
+          <span class="stat-sub" id="stat-done-sub">from Springer Mt.</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-label">Remaining</span>
+          <span class="stat-value" id="miles-left">1,968.6</span>
+          <span class="stat-sub" id="stat-left-sub">to Katahdin</span>
+        </div>
+      </section>
+
+      <!-- Progress Section -->
+      <section class="section progress-section">
+        <div class="progress-info">
+          <span class="progress-label">Overall Progress</span>
+          <span class="progress-percent" id="progress-percent">0%</span>
+        </div>
+        <div class="progress-bar-container">
+          <div class="progress-bar-fill" id="progress-fill" style="width: 0%"></div>
+        </div>
+        <div class="progress-meta">
+          <span id="progress-start-label">GA</span>
+          <span id="progress-ratio">0 / 1968.6 mi</span>
+          <span id="progress-end-label">ME</span>
+        </div>
+      </section>
+
+      <!-- Location Card -->
+      <section class="section location-card">
+        <h3><i data-lucide="map-pin"></i> Current Location</h3>
+        
+        <div class="location-detail">
+          <span class="detail-label">Coordinates</span>
+          <div class="coordinate-box" id="coord-box" title="Click to copy coordinates">
+            <span id="lat-long">Loading...</span>
+            <i data-lucide="copy" class="copy-icon"></i>
+          </div>
+        </div>
+
+        <div class="location-detail">
+          <span class="detail-label">Last GPS Ping</span>
+          <span class="detail-value" id="gps-timestamp">Loading...</span>
+        </div>
+
+        <div class="location-actions">
+          <a href="#" id="google-maps-btn" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+            <i data-lucide="external-link"></i> View on Google Maps
+          </a>
+          <button id="recenter-btn" class="btn btn-secondary">
+            <i data-lucide="navigation"></i> Recenter Map
+          </button>
+        </div>
+      </section>
+
+      <!-- Milestones Section -->
+      <section class="section milestones-section">
+        <h3><i data-lucide="compass"></i> Key Milestones</h3>
+        <div class="timeline" id="milestones-timeline">
+          <!-- Milestones will be dynamically rendered here -->
+        </div>
+      </section>
+      
+      <!-- Footer -->
+      <footer class="sidebar-footer">
+        <p>Edit <code class="code-filepath">current_location.json</code> to update position</p>
+      </footer>
+    </div>
+  </aside>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  
+  <!-- Custom JS -->
+  <script src="app.js"></script>
+</body>
+</html>
