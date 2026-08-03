@@ -64,16 +64,6 @@ document.addEventListener("DOMContentLoaded", () => {
       icon.setAttribute("data-lucide", "menu");
     }
     lucide.createIcons();
-
-    // Move map-controller if sidebar is active on mobile
-    const controller = document.getElementById("map-controller");
-    if (controller) {
-      if (sidebar.classList.contains("active")) {
-        controller.classList.add("sidebar-active");
-      } else {
-        controller.classList.remove("sidebar-active");
-      }
-    }
   });
 
   // Milestones Data (Coordinates represented as official miles from GA terminus)
