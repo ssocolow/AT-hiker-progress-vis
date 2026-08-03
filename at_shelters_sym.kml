@@ -1,0 +1,2635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>at_shelters_sym.kml</name>
+<Style id="m_pickup"><IconStyle><color>ff3fd2ff</color><scale>1.2</scale></IconStyle></Style>
+<Placemark>
+<name>Whitley Gap Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-83.834283,34.712505,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kephart Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-83.368013,35.614502,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Laurel Gap Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-83.186480,35.665929,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Mount Le Conte Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-83.433685,35.652817,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Black Gap Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-84.198707,34.617672,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Madison Spring Hut</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-71.282936,44.327732,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Crag Camp</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-71.302020,44.334911,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Gray Knob</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-71.310045,44.332251,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>The Perch Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-71.310482,44.324464,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Lake of the Clouds Hut</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-71.318788,44.258908,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Hermit Lake Shelter (1 of 2)</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-71.286303,44.261098,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Hermit Lake Shelter (2 of 2)</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-71.285880,44.261313,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Crawford Notch Hostel</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-71.411173,44.220104,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Hexacuba Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-72.028998,43.873961,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Gifford Woods State Park</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-72.811218,43.676074,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Old Job Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-72.928452,43.354054,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>William B. Douglas Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-72.990941,43.144481,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>South Bourn Pond Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-73.005161,43.103390,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Stratton Pond Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-72.968306,43.101386,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kid Gore Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-73.041095,43.013006,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Wilbur Clearing Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-73.169762,42.668480,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Bellows Pipe Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-73.154189,42.644078,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Pecks Brook Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-73.166777,42.625185,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Deer Hill Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-73.193559,42.629325,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Upper Goose Pond Cabin</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-73.181277,42.288654,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Glen Brook Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-73.428333,42.111142,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>The Hemlocks Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-73.429009,42.109899,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Riga Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-73.447710,42.014580,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Limestone Spring Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-73.391838,41.975115,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>West Mountain Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-74.010674,41.284081,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Saver Hollow Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-80.335198,37.355447,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Pickle Branch Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-80.191108,37.388099,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Blackrock Hut</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-78.742397,38.214134,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Rock Spring Hut</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-78.408305,38.553112,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ed Garvey Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-77.664252,39.356452,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ensign Cowall Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-77.557619,39.627742,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Rutherford Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-74.678038,41.277478,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ore Hill Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-71.940471,43.963564,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Smarts Mountain Cabin</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-72.037323,43.825259,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Velvet Rocks Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-72.264653,43.702433,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Moose Mountain Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-72.146942,43.727784,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Trapper John Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-72.111458,43.782997,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Rattle River Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-71.107428,44.379902,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Guyot Campsite Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-71.535025,44.160937,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Imp Campsite Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-71.150041,44.328858,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Speck Pond Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-70.973528,44.564572,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Full Goose Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-70.980796,44.525064,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Gentian Pond Campsite Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-71.069329,44.451716,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ethan Pond Campsite Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-71.426602,44.177158,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Eliza Brook Campsite Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-71.741815,44.100745,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Jeffers Brook Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-71.888903,43.996517,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Beaver Brook Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-71.811272,44.032937,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kinsman Pond Campsite Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-71.732295,44.136814,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Garfield Ridge Campsite Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-71.608278,44.190599,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Carlo Col Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-71.016128,44.488566,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Piazza Rock Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-70.530830,44.904073,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Popular Ridge Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-70.445760,44.969987,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Spaulding Mountain Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-70.341231,44.995716,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Little Bigelow Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-70.191048,45.139070,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Horns Pond Lean-tos</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-70.330043,45.144188,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Hurd Brook Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-69.018400,45.818463,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Carter Notch Hut</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-71.195332,44.259259,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Greenleaf Hut</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-71.660243,44.160249,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Lonesome Lake Hut</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-71.703115,44.138431,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Galehead Hut</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-71.568855,44.187779,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Mizpah Spring Hut</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-71.369570,44.219305,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Zealand Falls Hut</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-71.494283,44.195677,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Minerva Hinchey Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-72.924510,43.487770,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Clarendon Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-72.912633,43.523511,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Governor Clement Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-72.848293,43.564528,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Stony Brook Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-72.730096,43.691765,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Wintturi Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-72.622076,43.662156,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cloudland Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-72.493129,43.692150,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Happy Hill Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-72.365158,43.723843,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Thistle Hill Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-72.475295,43.695138,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Tucker Johnson Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-72.843129,43.679179,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cooper Lodge</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-72.822461,43.605915,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Pico Camp Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-72.830479,43.638995,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Tricorner Knob Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-83.256524,35.693766,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Baldpate Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-70.911729,44.598334,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Rainbow Stream Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-69.170413,45.799036,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Potaywadjo Spring Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-69.007281,45.706523,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>East Branch Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-69.198164,45.596707,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cooper Brook Falls Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-69.087345,45.640473,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Chairback Gap Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-69.262095,45.452880,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Logan Brook Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-69.234740,45.561097,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Carl A. Newhall Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-69.314906,45.530440,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Leeman Brook Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-69.498638,45.351530,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Wilson Valley Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-69.459481,45.397916,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Bald Mountain Brook Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-69.799323,45.258497,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Moxie Bald Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-69.745167,45.270538,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Horseshoe Canyon Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-69.627496,45.282735,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Pierce Pond Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-70.055449,45.240286,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>West Carry Pond Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-70.099763,45.158039,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Sabbath Day Pond Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-70.662297,44.840993,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Bemis Mountain Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-70.755892,44.810254,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Hall Mountain Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-70.824555,44.700799,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Frye Notch Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-70.900275,44.627684,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Wadleigh Stream Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-69.144554,45.747281,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Pleasant Pond Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-69.916188,45.270550,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Long Pond Stream Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-69.409531,45.421878,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cloud Pond Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-69.351598,45.418871,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kirkridge Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-75.186464,40.936701,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Leroy A. Smith Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-75.359411,40.839365,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Lula Tye Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-72.954782,43.395429,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Little Rock Pond Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-72.953136,43.404192,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Greenwall Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-72.928650,43.440389,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Mt. Wilcox South Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-73.268069,42.207797,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>October Mountain Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-73.154066,42.354848,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Kay Wood Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-73.161422,42.452492,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Bascom Lodge</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-73.167365,42.636865,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Mark Noepel Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-73.184072,42.608530,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Seth Warner Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-73.137100,42.771814,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Congdon Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-73.109895,42.848033,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Melville Nauheim Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-73.095709,42.887766,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Goddard Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-73.072158,42.974106,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Caughnawaga Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-73.043629,43.014981,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Story Spring Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-73.012531,43.050517,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Peru Peak Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-72.952391,43.301288,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Big Branch Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-72.946422,43.364058,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Spruce Peak Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-72.995203,43.178575,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Telephone Pioneers Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-73.618867,41.604257,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Tom Leonard Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-73.305772,42.164807,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Brassie Brook Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-73.453140,42.028311,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Wiley Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-73.532281,41.637735,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ten Mile River Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-73.509482,41.665056,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Morgan Stewart Memorial Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-73.691691,41.564537,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>William Brien Memorial Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-74.059442,41.279698,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RPH Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-73.792477,41.514380,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fingerboard Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-74.103995,41.263277,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Brink Road Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-74.837769,41.153208,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Mashipacong Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-74.686413,41.252117,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Gren Anderson Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-74.752658,41.199394,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Wawayanda Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-74.398062,41.202189,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Wildcat Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-74.267838,41.268349,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Bake Oven Knob Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-75.727026,40.754126,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Allentown Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-75.874005,40.683070,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Windsor Furnace Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-75.941945,40.590310,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>George W. Outerbridge Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-75.617934,40.782490,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Birch Run Shelters</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-77.420427,39.984606,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Toms Run Shelters</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-77.356989,40.034312,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>James Fry Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-77.206062,40.062991,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Alec Kennedy Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-77.103930,40.111943,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Darlington Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-77.087019,40.302004,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cove Mountain Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-77.067512,40.363467,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Clarks Ferry Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-76.993691,40.392239,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Peters Mountain Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-76.879361,40.425805,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Rausch Gap Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-76.600177,40.498549,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>501 Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-76.346538,40.512512,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>William Penn Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-76.413999,40.495613,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Eagles Nest Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-76.152328,40.549309,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Mt. Algo Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-73.496204,41.731646,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Tumbling Run Shelters</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-77.477938,39.805022,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Antietam Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-77.482651,39.793836,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Deer Lick Shelters</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-77.484884,39.766213,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Rocky Run Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-77.631044,39.460841,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Pine Knob Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-77.602097,39.542531,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Devils Racecourse Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-77.524322,39.672055,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Rocky Mountain Shelters</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-77.500573,39.868587,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Quarry Gap Shelters</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-77.486414,39.931977,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Crampton Gap Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-77.637341,39.412560,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Rod Hollow Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-77.944085,39.047856,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Sam Moore Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-77.886288,39.090675,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Bears Den Hostel</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-77.854145,39.110985,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Blackburn Trail Center</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-77.797379,39.187888,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>David Lesser Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-77.779245,39.227218,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Manassas Gap Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-78.032775,38.930627,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Dick's Dome Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-77.996738,38.969953,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Pine Swamp Brook Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-73.391641,41.881617,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Stewart Hollow Brook Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-73.419331,41.778588,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Eckville Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-75.958439,40.632848,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>High Point Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-74.643334,41.327747,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Pochuck Mountain Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-74.515842,41.271659,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Mt. Wilcox North Lean-to</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-73.250085,42.221006,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Niday Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-80.264218,37.387549,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>War Spur Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-80.473843,37.397606,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Rice Field Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-80.758355,37.374860,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Pine Swamp Branch Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-80.608555,37.422146,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Laurel Creek Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-80.420977,37.358981,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Bailey Gap Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-80.577034,37.400923,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fontana Dam Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-83.794046,35.448429,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Sassafras Gap Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-83.666861,35.330782,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Brown Fork Gap Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-83.733804,35.374348,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cold Spring Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-83.559757,35.231010,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Wesser Bald Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-83.582119,35.282462,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>A. Rufus Morgan Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-83.590103,35.324285,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cosby Knob Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-83.182075,35.727189,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Davenport Gap Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-83.123561,35.769324,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Icewater Spring Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-83.386277,35.629787,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Double Spring Gap Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-83.542750,35.565262,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Silers Bald Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-83.568233,35.564309,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Derrick Knob Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-83.641801,35.566346,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Spence Field Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-83.732629,35.561896,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Russell Field Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-83.766507,35.561835,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Mollies Ridge Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-83.793513,35.545880,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Stan Murray Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-82.065735,36.112367,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Overmountain Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-82.054260,36.123634,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Apple House Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-82.011175,36.172179,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Roan High Knob Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-82.122542,36.105060,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Clyde Smith Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-82.161187,36.148534,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cherry Gap Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-82.264002,36.129330,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Curley Maple Gap Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-82.396835,36.104260,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No Business Knob Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-82.433452,36.066853,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Bald Mountain Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-82.478190,36.000088,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Hogback Ridge Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-82.587036,35.964048,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Little Laurel Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-82.735790,36.015080,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Jerry Cabin</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-82.657222,36.056555,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Flint Mountain Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-82.596728,36.034880,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Jenkins Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-81.247622,37.093460,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Jenny Knob Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-80.980090,37.155061,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Wapiti Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-80.823945,37.224014,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Doc's Knob Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-80.836219,37.270272,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Knot Maul Branch Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-81.404375,37.000730,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Racoon Branch Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-81.471809,36.730989,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Trimpi Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-81.480442,36.749254,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Partnership Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-81.422413,36.809469,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Chatfield Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-81.363120,36.849983,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Davis Path Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-81.376726,36.914510,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Chestnut Knob Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-81.399320,37.057758,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Wise Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-81.498406,36.654000,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Old Orchard Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-81.511055,36.683292,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Abingdon Gap Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-81.902056,36.581101,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>The Place</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-81.787275,36.633893,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Thomas Knob Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-81.535179,36.656640,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Holiday Inn</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-81.920211,36.572229,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Lost Mountain Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-81.656115,36.644135,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Saunders Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-81.712983,36.637775,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Double Springs Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-81.986061,36.509052,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watauga Lake Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-82.129385,36.313963,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Iron Mountain Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-81.990890,36.435609,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Vandeventer Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-82.058802,36.367029,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Laurel Fork Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-82.136229,36.278643,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Moreland Gap Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-82.088363,36.220204,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Spring Mountain Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-82.790104,35.951578,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Deer Park Mountain Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-82.861247,35.875925,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Roaring Fork Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-82.938490,35.822430,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Walnut Mountain Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-82.936550,35.836540,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Groundhog Creek Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-83.026182,35.781761,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Siler Bald Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-83.572434,35.144247,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Big Spring Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-83.478792,35.059026,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Rock Gap Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-83.522990,35.091551,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Carter Gap Shelter (new)</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-83.494146,34.999015,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Woods Hole Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-83.954917,34.737247,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Blood Mountain Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-83.937439,34.740073,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Low Gap Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-83.824550,34.776304,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Blue Mountain Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-83.766712,34.817234,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Tray Mountain Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-83.676771,34.804074,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Deep Gap Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-83.646056,34.882464,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Plumorchard Gap Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-83.588191,34.946150,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Muskrat Creek Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-83.581518,35.020654,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Standing Indian Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-83.548050,35.041939,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Carter Gap Shelter (old)</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-83.494761,34.999983,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Pass Mountain Hut</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-78.318912,38.676604,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Gravel Springs Hut</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-78.234217,38.763513,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Paul C. Wolfe Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-78.883645,37.985691,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Pinefield Hut</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-78.645729,38.290600,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Hightop Hut</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-78.558358,38.333077,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Bearfence Mountain Hut</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-78.470440,38.444125,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Maupin Field Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-78.993591,37.884931,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Harpers Creek Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-79.000968,37.856464,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>The Priest Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-79.070335,37.817796,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Boy Scout Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-80.073908,37.385373,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Catawba Mountain Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-80.057201,37.388254,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Campbell Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-80.029280,37.390851,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Lamberts Meadow Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-79.987554,37.434622,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Wilson Creek Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-79.785510,37.419323,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fullhardt Knob Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-79.853710,37.398527,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Bobblets Gap Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-79.701205,37.467257,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cove Mountain Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-79.650826,37.511763,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cornelius Creek Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-79.546972,37.493978,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Bryant Ridge Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-79.585332,37.530092,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Thunder Hill Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-79.503943,37.527440,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Matts Creek Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-79.413224,37.599508,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punchbowl Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-79.338515,37.677812,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Johns Hollow Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-79.391845,37.613064,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Brown Mountain Creek Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-79.267925,37.710284,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Seeley-Woodworth Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-79.154886,37.818982,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Jim &amp; Molly Denton Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-78.083044,38.889999,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Tom Floyd Wayside Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-78.163634,38.850418,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cable Gap Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-83.773466,35.415318,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Mt. Collins Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-83.471299,35.593847,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Pecks Corner Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-83.308481,35.650844,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Helveys Mill Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-81.104235,37.132696,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cow Camp Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-79.213059,37.746676,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Calf Mountain Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-78.786561,38.085581,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Gooch Mountain Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-84.034209,34.653321,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Springer Mountain Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-84.192977,34.629265,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Hawk Mountain Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-84.136341,34.665950,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Stover Creek Shelter</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-84.199752,34.649576,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>The Birches Shelters</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-68.995048,45.881604,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Rainbow Spring Campsite</name>
+<styleUrl>#m_ylw-pushpin_copy1</styleUrl>
+<Point>
+<coordinates>
+-69.135951,45.822146,0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Simon Pickup Point</name>
+<styleUrl>#m_pickup</styleUrl>
+<Point>
+<coordinates>
+-69.172595,45.779426,0
+</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

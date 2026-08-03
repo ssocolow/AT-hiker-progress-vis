@@ -587,4 +587,273 @@ body, html {
   .leaflet-top.leaflet-left {
     top: 80px !important;
   }
+
+  #map-controller {
+    top: auto;
+    bottom: 16px;
+    right: 16px;
+    width: calc(100% - 32px);
+    max-width: 280px;
+    padding: 12px;
+    border-radius: 12px;
+  }
+  
+  #map-controller.sidebar-active {
+    bottom: calc(50vh + 16px);
+  }
 }
+
+/* --- Map Floating Controller --- */
+#map-controller {
+  position: absolute;
+  top: 85px; /* Sits perfectly below Leaflet zoom controls */
+  right: 12px;
+  z-index: 9;
+  background: var(--bg-sidebar);
+  backdrop-filter: blur(12px) saturate(180%);
+  -webkit-backdrop-filter: blur(12px) saturate(180%);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  padding: 16px;
+  width: 240px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: var(--transition-smooth);
+}
+
+.control-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.control-group.border-top {
+  border-top: 1px solid var(--border-color);
+  padding-top: 12px;
+}
+
+.control-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+.style-options {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+}
+
+.style-btn {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  color: var(--text-muted);
+  padding: 8px 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+  font-family: var(--font-family);
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.style-btn i {
+  width: 16px;
+  height: 16px;
+  color: var(--text-muted);
+}
+
+.style-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.15);
+  color: var(--text-main);
+}
+
+.style-btn.active {
+  background: rgba(16, 185, 129, 0.15);
+  border-color: var(--accent);
+  color: var(--accent-light);
+}
+
+.style-btn.active i {
+  color: var(--accent-light);
+}
+
+/* Custom switch toggle */
+.toggle-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.toggle-control input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.control-switch {
+  position: relative;
+  width: 36px;
+  height: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid var(--border-color);
+  border-radius: 20px;
+  transition: var(--transition-smooth);
+}
+
+.control-switch:before {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 14px;
+  left: 2px;
+  bottom: 2px;
+  background-color: var(--text-muted);
+  border-radius: 50%;
+  transition: var(--transition-smooth);
+}
+
+.toggle-control input:checked + .control-switch {
+  background-color: var(--accent-muted);
+  border-color: var(--accent);
+}
+
+.toggle-control input:checked + .control-switch:before {
+  transform: translateX(16px);
+  background-color: var(--accent-light);
+}
+
+/* --- Custom Leaflet Popup & Tooltip --- */
+.custom-leaflet-popup .leaflet-popup-content-wrapper {
+  background: rgba(13, 20, 35, 0.9) !important;
+  backdrop-filter: blur(12px) saturate(180%) !important;
+  -webkit-backdrop-filter: blur(12px) saturate(180%) !important;
+  border: 1px solid var(--border-color) !important;
+  color: var(--text-main) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5) !important;
+  padding: 8px;
+}
+
+.custom-leaflet-popup .leaflet-popup-tip {
+  background: rgba(13, 20, 35, 0.9) !important;
+  border: 1px solid var(--border-color) !important;
+}
+
+.shelter-popup {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 220px;
+}
+
+.shelter-popup h4 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin: 0;
+  line-height: 1.2;
+}
+
+.shelter-badge {
+  display: inline-block;
+  align-self: flex-start;
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--text-muted);
+}
+
+.shelter-badge.shelter {
+  background: rgba(16, 185, 129, 0.15);
+  border-color: rgba(16, 185, 129, 0.3);
+  color: var(--accent-light);
+}
+
+.shelter-badge.hostel,
+.shelter-badge.lodge {
+  background: rgba(59, 130, 246, 0.15);
+  border-color: rgba(59, 130, 246, 0.3);
+  color: #60a5fa;
+}
+
+.shelter-badge.cabin,
+.shelter-badge.hut {
+  background: rgba(245, 158, 11, 0.15);
+  border-color: rgba(245, 158, 11, 0.3);
+  color: #fbbf24;
+}
+
+.shelter-capacity {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.shelter-ele, .shelter-state {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.shelter-notes {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+  border-top: 1px solid var(--border-color);
+  padding-top: 6px;
+  margin-top: 4px;
+  font-style: italic;
+}
+
+/* Custom Tooltip */
+.custom-leaflet-tooltip {
+  background: rgba(15, 23, 42, 0.95) !important;
+  border: 1px solid var(--border-color) !important;
+  color: var(--text-main) !important;
+  font-family: var(--font-family) !important;
+  font-size: 0.75rem !important;
+  font-weight: 600 !important;
+  border-radius: 4px !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3) !important;
+  padding: 4px 8px !important;
+}
+
+/* Timeline Milestones Badges */
+.milestone-badge {
+  font-size: 0.6rem;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-left: 6px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.completed-badge {
+  background: rgba(16, 185, 129, 0.12);
+  color: var(--accent-light);
+  border: 1px solid rgba(16, 185, 129, 0.25);
+}
+.current-badge {
+  background: rgba(59, 130, 246, 0.15);
+  color: #60a5fa;
+  border: 1px solid rgba(59, 130, 246, 0.3);
+}
+
+

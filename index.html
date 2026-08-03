@@ -24,6 +24,38 @@
   <!-- Full Screen Map -->
   <div id="map"></div>
 
+  <!-- Map Floating Controller -->
+  <div id="map-controller">
+    <!-- Map Style Toggle -->
+    <div class="control-group">
+      <span class="control-label">Map Style</span>
+      <div class="style-options">
+        <button class="style-btn active" id="style-voyager" title="Default Map">
+          <i data-lucide="map"></i>
+          <span>Default</span>
+        </button>
+        <button class="style-btn" id="style-topo" title="Topographic Map">
+          <i data-lucide="mountain"></i>
+          <span>Topo</span>
+        </button>
+        <button class="style-btn" id="style-satellite" title="Satellite Map">
+          <i data-lucide="globe"></i>
+          <span>Satellite</span>
+        </button>
+      </div>
+    </div>
+    
+    <!-- Shelters Layer Toggle -->
+    <div class="control-group border-top">
+      <label class="toggle-control">
+        <span class="control-label">Show Shelters</span>
+        <input type="checkbox" id="toggle-shelters" checked>
+        <span class="control-switch"></span>
+      </label>
+    </div>
+  </div>
+
+
   <!-- Mobile Toggle Button -->
   <button id="mobile-toggle" aria-label="Toggle dashboard">
     <i data-lucide="menu"></i>

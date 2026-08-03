@@ -1,6 +1,6 @@
 # Appalachian Trail Hiker Tracker 🥾
 
-A beautiful, lightweight, and modern static tracking website designed to let family and friends track **Audrey's** progress on her northbound (NOBO) Appalachian Trail thru-hike.
+A beautiful, lightweight, and modern static tracking website designed to let family and friends track **Audrey's** progress on her southbound (SOBO) Appalachian Trail thru-hike.
 
 Hosted easily on Vercel, the site loads instantly and is configured to be updated by editing **just a single file** (`current_location.json`).
 
@@ -23,9 +23,11 @@ To update Audrey's current position, edit the **`current_location.json`** file a
 ```json
 {
   "hikerName": "Audrey",
-  "latitude": 35.725178,
-  "longitude": -83.200567,
-  "date": "2026-07-28T14:30:00-04:00"
+  "direction": "SOBO",
+  "latitude": 43.673985,
+  "longitude": -72.808707,
+  "currentMileage": 440.4,
+  "date": "2026-07-27T21:07:49-07:00"
 }
 ```
 
@@ -35,6 +37,7 @@ To update Audrey's current position, edit the **`current_location.json`** file a
 3. `date`: The timestamp of the check-in in ISO 8601 format (e.g., `2026-07-28T14:30:00-04:00` or standard UTC). The website will automatically format this into a localized date string and calculate how long ago it was.
 4. `hikerName`: Set to `"Audrey"` (can be modified if needed).
 5. `direction`: The direction of the thru-hike: either `"NOBO"` (Northbound, GA ➔ ME) or `"SOBO"` (Southbound, ME ➔ GA). The website will automatically adjust all mileage calculations, progress metrics, status labels, and the milestone timeline based on this setting.
+6. `currentMileage`: *(Optional)* The hiker's exact completed mileage so far (e.g., from the FarOut app). If provided, the website will display this exact mileage directly. If omitted, empty, or null, the site will automatically fall back to calculating the mileage based on the GPS coordinates.
 
 Once edited, **commit and push the changes** to your GitHub repository. Vercel will automatically redeploy the site in a few seconds!
 

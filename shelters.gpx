@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="GPS TrackMaker" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"><metadata><link href="http://www.gpstm.com"><text>Geo Studio Tecnology Ltd</text></link><time>2009-05-22T17:22:27Z</time><bounds minlat="34.629458" minlon="-84.200090" maxlat="45.886750" maxlon="-68.999051"/></metadata>
+<wpt lat="40.782494172" lon="-75.617931013"><ele>294.62</ele><name>George W. </name><cmt>George W. Outerbridge</cmt><desc>George W. Outerbridge</desc><sym>Waypoint</sym></wpt>
+<wpt lat="38.930706945" lon="-78.032687661"><ele>503.72</ele><name>Manassas G</name><cmt>Manassas Gap</cmt><desc>Manassas Gap</desc><sym>Waypoint</sym></wpt>
+<wpt lat="39.227229226" lon="-77.779088330"><ele>421.34</ele><name>David Less</name><cmt>David Lesser Memorial</cmt><desc>David Lesser Memorial</desc><sym>Waypoint</sym></wpt>
+<wpt lat="41.199479948" lon="-74.752640403"><ele>399.87</ele><name>Gren Ander</name><cmt>Gren Anderson</cmt><desc>Gren Anderson</desc><sym>Waypoint</sym></wpt>
+<wpt lat="41.153228707" lon="-74.837773461"><ele>336.79</ele><name>Brink Road</name><cmt>Brink Road</cmt><desc>Brink Road</desc><sym>Waypoint</sym></wpt>
+<wpt lat="41.315753474" lon="-74.657256565"><ele>388.70</ele><name>High Point</name><cmt>High Point</cmt><desc>High Point</desc><sym>Waypoint</sym></wpt>
+<wpt lat="41.514493373" lon="-73.792357069"><ele>109.67</ele><name>RPH</name><cmt>RPH</cmt><desc>RPH</desc><sym>Waypoint</sym></wpt>
+<wpt lat="41.282358412" lon="-74.009195686"><ele>369.84</ele><name>West Mount</name><cmt>West Mountain</cmt><desc>West Mountain</desc><sym>Waypoint</sym></wpt>
+<wpt lat="41.279734626" lon="-74.059287332"><ele>331.64</ele><name>William Br</name><cmt>William Brien Memorial</cmt><desc>William Brien Memorial</desc><sym>Waypoint</sym></wpt>
+<wpt lat="40.495594804" lon="-76.414088397"><ele>409.74</ele><name>William Pe</name><cmt>William Penn</cmt><desc>William Penn</desc><sym>Waypoint</sym></wpt>
+<wpt lat="39.868523246" lon="-77.500596564"><ele>466.90</ele><name>Rocky Moun</name><cmt>Rocky Mountain</cmt><desc>Rocky Mountain</desc><sym>Waypoint</sym></wpt>
+<wpt lat="40.062954090" lon="-77.206106165"><ele>231.80</ele><name>James Fry </name><cmt>James Fry (Tagg Run)</cmt><desc>James Fry (Tagg Run)</desc><sym>Waypoint</sym></wpt>
+<wpt lat="40.111778225" lon="-77.104032637"><ele>294.60</ele><name>Alec Kenne</name><cmt>Alec Kennedy</cmt><desc>Alec Kennedy</desc><sym>Waypoint</sym></wpt>
+<wpt lat="39.985117610" lon="-77.419433413"><ele>548.89</ele><name>Birch Run</name><cmt>Birch Run</cmt><desc>Birch Run</desc><sym>Waypoint</sym></wpt>
+<wpt lat="39.931983434" lon="-77.486375816"><ele>446.75</ele><name>Quarry Gap</name><cmt>Quarry Gap</cmt><desc>Quarry Gap</desc><sym>Waypoint</sym></wpt>
+<wpt lat="39.793803118" lon="-77.482566323"><ele>270.80</ele><name>Antietam</name><cmt>Antietam</cmt><desc>Antietam</desc><sym>Waypoint</sym></wpt>
+<wpt lat="39.804840969" lon="-77.478056128"><ele>331.82</ele><name>Tumbling R</name><cmt>Tumbling Run</cmt><desc>Tumbling Run</desc><sym>Waypoint</sym></wpt>
+<wpt lat="40.033665857" lon="-77.356781166"><ele>396.38</ele><name>Toms Run</name><cmt>Toms Run</cmt><desc>Toms Run</desc><sym>Waypoint</sym></wpt>
+<wpt lat="40.363584209" lon="-77.067260230"><ele>341.61</ele><name>Cove Mount</name><cmt>Cove Mountain</cmt><desc>Cove Mountain</desc><sym>Waypoint</sym></wpt>
+<wpt lat="39.766146467" lon="-77.484796521"><ele>431.13</ele><name>Deer Lick</name><cmt>Deer Lick</cmt><desc>Deer Lick</desc><sym>Waypoint</sym></wpt>
+<wpt lat="38.969698311" lon="-77.997206370"><ele>394.20</ele><name>Dick's Dom</name><cmt>Dick's Dome</cmt><desc>Dick's Dome</desc><sym>Waypoint</sym></wpt>
+<wpt lat="43.178576319" lon="-72.995198604"><ele>656.55</ele><name>Spruce Pea</name><cmt>Spruce Peak</cmt><desc>Spruce Peak</desc><sym>Waypoint</sym></wpt>
+<wpt lat="43.727183557" lon="-72.149255822"><ele>639.01</ele><name>Moose Moun</name><cmt>Moose Mountain</cmt><desc>Moose Mountain</desc><sym>Waypoint</sym></wpt>
+<wpt lat="43.662180984" lon="-72.621932221"><ele>589.46</ele><name>Winturri</name><cmt>Winturri</cmt><desc>Winturri</desc><sym>Waypoint</sym></wpt>
+<wpt lat="43.222375865" lon="-72.950476767"><ele>779.17</ele><name>Bromley</name><cmt>Bromley</cmt><desc>Bromley</desc><sym>Waypoint</sym></wpt>
+<wpt lat="43.996676064" lon="-71.888954742"><ele>404.81</ele><name>Jeffers Br</name><cmt>Jeffers Brook</cmt><desc>Jeffers Brook</desc><sym>Waypoint</sym></wpt>
+<wpt lat="45.596759410" lon="-69.198157627"><ele>374.34</ele><name>East Branc</name><cmt>East Branch Lean-to</cmt><desc>East Branch Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="42.207709302" lon="-73.268285014"><ele>554.42</ele><name>Mount Wilc</name><cmt>Mount Wilcox South Lean-to</cmt><desc>Mount Wilcox South Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="42.221083122" lon="-73.250184321"><ele>594.95</ele><name>Mount Wilc</name><cmt>Mount Wilcox North Lean-to</cmt><desc>Mount Wilcox North Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="42.028349511" lon="-73.453352392"><ele>528.09</ele><name>Brassie Br</name><cmt>Brassie Brook Lean-to</cmt><desc>Brassie Brook Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="44.700794189" lon="-70.824732290"><ele>801.12</ele><name>Hall Mount</name><cmt>Hall Mountain Lean-to</cmt><desc>Hall Mountain Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="45.139173696" lon="-70.191146378"><ele>546.24</ele><name>Little Big</name><cmt>Little Bigelow Lean-to</cmt><desc>Little Bigelow Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="45.258544349" lon="-69.799471804"><ele>400.18</ele><name>Bald Mount</name><cmt>Bald Mountain Brook Lean-to</cmt><desc>Bald Mountain Brook Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="45.271189942" lon="-69.916745659"><ele>401.51</ele><name>Pleasant P</name><cmt>Pleasant Pond Lean-to</cmt><desc>Pleasant Pond Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="45.398733212" lon="-69.459208715"><ele>297.37</ele><name>Wilson Val</name><cmt>Wilson Valley Lean-to</cmt><desc>Wilson Valley Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="45.799062954" lon="-69.170414394"><ele>305.45</ele><name>Rainbow St</name><cmt>Rainbow Stream Lean-to</cmt><desc>Rainbow Stream Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="42.848073927" lon="-73.109944985"><ele>636.06</ele><name>Congdon</name><cmt>Congdon</cmt><desc>Congdon</desc><sym>Waypoint</sym></wpt>
+<wpt lat="41.779280509" lon="-73.418513028"><ele>127.94</ele><name>Stewart Ho</name><cmt>Stewart Hollow Brook Lean-to</cmt><desc>Stewart Hollow Brook Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="41.881671509" lon="-73.391611419"><ele>330.78</ele><name>Pine Swamp</name><cmt>Pine Swamp Brook Lean-to</cmt><desc>Pine Swamp Brook Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="41.975364712" lon="-73.392310771"><ele>299.75</ele><name>Limestone </name><cmt>Limestone Spring Lean-to</cmt><desc>Limestone Spring Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="43.695175172" lon="-72.475317028"><ele>512.25</ele><name>Thistle Hi</name><cmt>Thistle Hill</cmt><desc>Thistle Hill</desc><sym>Waypoint</sym></wpt>
+<wpt lat="43.723991538" lon="-72.365243093"><ele>412.39</ele><name>Happy Hill</name><cmt>Happy Hill</cmt><desc>Happy Hill</desc><sym>Waypoint</sym></wpt>
+<wpt lat="35.964078797" lon="-82.587129108"><ele>1304.42</ele><name>Hog Back R</name><cmt>Hog Back Ridge</cmt><desc>Hog Back Ridge</desc><sym>Waypoint</sym></wpt>
+<wpt lat="36.220148277" lon="-82.088313194"><ele>1165.63</ele><name>Moreland G</name><cmt>Moreland Gap</cmt><desc>Moreland Gap</desc><sym>Waypoint</sym></wpt>
+<wpt lat="35.769286194" lon="-83.123455989"><ele>782.56</ele><name>Davenport </name><cmt>Davenport Gap</cmt><desc>Davenport Gap</desc><sym>Waypoint</sym></wpt>
+<wpt lat="34.666030931" lon="-84.136308493"><ele>958.85</ele><name>Hawk Mount</name><cmt>Hawk Mountain</cmt><desc>Hawk Mountain</desc><sym>Waypoint</sym></wpt>
+<wpt lat="36.129238230" lon="-82.264118815"><ele>1206.36</ele><name>Cherry Gap</name><cmt>Cherry Gap</cmt><desc>Cherry Gap</desc><sym>Waypoint</sym></wpt>
+<wpt lat="36.367068479" lon="-82.058771983"><ele>1084.75</ele><name>Vandevente</name><cmt>Vandeventer</cmt><desc>Vandeventer</desc><sym>Waypoint</sym></wpt>
+<wpt lat="35.594024018" lon="-83.470946956"><ele>1780.54</ele><name>Mt. Collin</name><cmt>Mt. Collins</cmt><desc>Mt. Collins</desc><sym>Waypoint</sym></wpt>
+<wpt lat="35.565175663" lon="-83.542609202"><ele>1679.62</ele><name>Double Spr</name><cmt>Double Spring Gap</cmt><desc>Double Spring Gap</desc><sym>Waypoint</sym></wpt>
+<wpt lat="35.231093485" lon="-83.559960190"><ele>1501.27</ele><name>Cold Sprin</name><cmt>Cold Spring</cmt><desc>Cold Spring</desc><sym>Waypoint</sym></wpt>
+<wpt lat="35.059048995" lon="-83.478797938"><ele>1501.69</ele><name>Big Spring</name><cmt>Big Spring</cmt><desc>Big Spring</desc><sym>Waypoint</sym></wpt>
+<wpt lat="35.069971" lon="-83.498158"><ele>1276.72</ele><name>Long Branch</name><cmt>Long Branch</cmt><desc>Long Branch</desc><sym>Waypoint</sym></wpt>
+<wpt lat="35.091590354" lon="-83.523029247"><ele>1156.84</ele><name>Rock Gap</name><cmt>Rock Gap</cmt><desc>Rock Gap</desc><sym>Waypoint</sym></wpt>
+<wpt lat="35.781837846" lon="-83.026322973"><ele>855.87</ele><name>Groundhog </name><cmt>Groundhog Creek</cmt><desc>Groundhog Creek</desc><sym>Waypoint</sym></wpt>
+<wpt lat="35.545855273" lon="-83.793576953"><ele>1397.63</ele><name>Mollies Ri</name><cmt>Mollies Ridge</cmt><desc>Mollies Ridge</desc><sym>Waypoint</sym></wpt>
+<wpt lat="36.580941323" lon="-81.901886667"><ele>1153.63</ele><name>Abingdon G</name><cmt>Abingdon Gap</cmt><desc>Abingdon Gap</desc><sym>Waypoint</sym></wpt>
+<wpt lat="35.374273698" lon="-83.733915339"><ele>1146.57</ele><name>Brown Fork</name><cmt>Brown Fork Gap</cmt><desc>Brown Fork Gap</desc><sym>Waypoint</sym></wpt>
+<wpt lat="35.875953823" lon="-82.861247726"><ele>715.38</ele><name>Deer Park </name><cmt>Deer Park Mountian</cmt><desc>Deer Park Mountian</desc><sym>Waypoint</sym></wpt>
+<wpt lat="35.836502676" lon="-82.936490113"><ele>1295.87</ele><name>Walnut Mou</name><cmt>Walnut Mountain</cmt><desc>Walnut Mountain</desc><sym>Waypoint</sym></wpt>
+<wpt lat="36.066621637" lon="-82.433654178"><ele>972.17</ele><name>No Busines</name><cmt>No Business Knob</cmt><desc>No Business Knob</desc><sym>Waypoint</sym></wpt>
+<wpt lat="36.015102984" lon="-82.735923618"><ele>1112.33</ele><name>Little Lau</name><cmt>Little Laurel</cmt><desc>Little Laurel</desc><sym>Waypoint</sym></wpt>
+<wpt lat="35.650852727" lon="-83.308551873"><ele>1613.20</ele><name>Pecks Corn</name><cmt>Pecks Corner</cmt><desc>Pecks Corner</desc><sym>Waypoint</sym></wpt>
+<wpt lat="35.693823822" lon="-83.256660211"><ele>1795.85</ele><name>Tri-Corner</name><cmt>Tri-Corner Knob</cmt><desc>Tri-Corner Knob</desc><sym>Waypoint</sym></wpt>
+<wpt lat="35.728325063" lon="-83.181987857"><ele>1445.87</ele><name>Cosby Knob</name><cmt>Cosby Knob</cmt><desc>Cosby Knob</desc><sym>Waypoint</sym></wpt>
+<wpt lat="34.804125581" lon="-83.676784322"><ele>1286.39</ele><name>Tray Mount</name><cmt>Tray Mountain</cmt><desc>Tray Mountain</desc><sym>Waypoint</sym></wpt>
+<wpt lat="35.020722894" lon="-83.581441129"><ele>1391.57</ele><name>Muskrat Cr</name><cmt>Muskrat Creek</cmt><desc>Muskrat Creek</desc><sym>Waypoint</sym></wpt>
+<wpt lat="37.398523603" lon="-79.853670625"><ele>812.12</ele><name>Fullhardt </name><cmt>Fullhardt Knob</cmt><desc>Fullhardt Knob</desc><sym>Waypoint</sym></wpt>
+<wpt lat="37.390818069" lon="-80.029216147"><ele>801.29</ele><name>Campbell</name><cmt>Campbell</cmt><desc>Campbell</desc><sym>Waypoint</sym></wpt>
+<wpt lat="37.511630313" lon="-79.650713915"><ele>587.01</ele><name>Cove Mount</name><cmt>Cove Mountain</cmt><desc>Cove Mountain</desc><sym>Waypoint</sym></wpt>
+<wpt lat="37.527456754" lon="-79.503899261"><ele>1195.63</ele><name>Thunder Hi</name><cmt>Thunder Hill</cmt><desc>Thunder Hill</desc><sym>Waypoint</sym></wpt>
+<wpt lat="37.422040597" lon="-80.608404219"><ele>771.52</ele><name>Pine Swamp</name><cmt>Pine Swamp Branch</cmt><desc>Pine Swamp Branch</desc><sym>Waypoint</sym></wpt>
+<wpt lat="37.270309546" lon="-80.836151767"><ele>1076.87</ele><name>Doc's Knob</name><cmt>Doc's Knob</cmt><desc>Doc's Knob</desc><sym>Waypoint</sym></wpt>
+<wpt lat="36.809525508" lon="-81.422371227"><ele>985.25</ele><name>Partnershi</name><cmt>Partnership</cmt><desc>Partnership</desc><sym>Waypoint</sym></wpt>
+<wpt lat="37.130775374" lon="-81.102950477"><ele>930.42</ele><name>Helveys Mi</name><cmt>Helveys Mill</cmt><desc>Helveys Mill</desc><sym>Waypoint</sym></wpt>
+<wpt lat="37.745044582" lon="-79.212689406"><ele>963.60</ele><name>Cow Camp G</name><cmt>Cow Camp Gap</cmt><desc>Cow Camp Gap</desc><sym>Waypoint</sym></wpt>
+<wpt lat="37.817650105" lon="-79.070334684"><ele>1167.46</ele><name>The Priest</name><cmt>The Priest</cmt><desc>The Priest</desc><sym>Waypoint</sym></wpt>
+<wpt lat="36.683129911" lon="-81.511214286"><ele>1240.46</ele><name>Old Orchar</name><cmt>Old Orchard</cmt><desc>Old Orchard</desc><sym>Waypoint</sym></wpt>
+<wpt lat="36.656598426" lon="-81.535235093"><ele>1649.79</ele><name>Thomas Kno</name><cmt>Thomas Knob</cmt><desc>Thomas Knob</desc><sym>Waypoint</sym></wpt>
+<wpt lat="37.677882938" lon="-79.338443580"><ele>760.32</ele><name>Punchbowl</name><cmt>Punchbowl</cmt><desc>Punchbowl</desc><sym>Waypoint</sym></wpt>
+<wpt lat="36.637761025" lon="-81.713470682"><ele>1010.35</ele><name>Saunders</name><cmt>Saunders</cmt><desc>Saunders</desc><sym>Waypoint</sym></wpt>
+<wpt lat="39.673273" lon="-77.52949"><ele>504.16</ele><name>Raven Rock</name><cmt>Raven Rock</cmt><desc>Raven Rock</desc><sym>Waypoint</sym></wpt>
+<wpt lat="39.631015357" lon="-77.555659407"><ele>417.09</ele><name>Ensign Cow</name><cmt>Ensign Cowall</cmt><desc>Ensign Cowall</desc><sym>Waypoint</sym></wpt>
+<wpt lat="39.542504611" lon="-77.601811282"><ele>429.39</ele><name>Pine  Knob</name><cmt>Pine  Knob</cmt><desc>Pine  Knob</desc><sym>Waypoint</sym></wpt>
+<wpt lat="41.277456919" lon="-74.677807477"><ele>405.59</ele><name>Rutherford</name><cmt>Rutherford</cmt><desc>Rutherford</desc><sym>Waypoint</sym></wpt>
+<wpt lat="39.412589392" lon="-77.637022983"><ele>291.95</ele><name>Crampton G</name><cmt>Crampton Gap</cmt><desc>Crampton Gap</desc><sym>Waypoint</sym></wpt>
+<wpt lat="39.460950744" lon="-77.630872573"><ele>280.07</ele><name>Rocky Run</name><cmt>Rocky Run</cmt><desc>Rocky Run</desc><sym>Waypoint</sym></wpt>
+<wpt lat="39.359819152" lon="-77.661724004"><ele>327.57</ele><name>Ed Garvey</name><cmt>Ed Garvey</cmt><desc>Ed Garvey</desc><sym>Waypoint</sym></wpt>
+<wpt lat="41.271255391" lon="-74.514922210"><ele>263.91</ele><name>Pochuck Mo</name><cmt>Pochuck Mountain</cmt><desc>Pochuck Mountain</desc><sym>Waypoint</sym></wpt>
+<wpt lat="41.252155194" lon="-74.685937901"><ele>432.32</ele><name>Mashipacon</name><cmt>Mashipacong</cmt><desc>Mashipacong</desc><sym>Waypoint</sym></wpt>
+<wpt lat="41.202211641" lon="-74.397708838"><ele>361.06</ele><name>Wawayanda</name><cmt>Wawayanda</cmt><desc>Wawayanda</desc><sym>Waypoint</sym></wpt>
+<wpt lat="41.665161888" lon="-73.509216795"><ele>92.31</ele><name>Ten Mile R</name><cmt>Ten Mile River Lean-to</cmt><desc>Ten Mile River Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="44.627913807" lon="-70.899825541"><ele>703.45</ele><name>Frye Notch</name><cmt>Frye Notch Lean-to</cmt><desc>Frye Notch Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="45.453108023" lon="-69.261741397"><ele>595.92</ele><name>Chairback </name><cmt>Chairback Gap Lean-to</cmt><desc>Chairback Gap Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="45.418043595" lon="-69.353224897"><ele>745.69</ele><name>Cloud Pond</name><cmt>Cloud Pond Lean-to</cmt><desc>Cloud Pond Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="45.421096897" lon="-69.409596781"><ele>288.14</ele><name>Long Pond </name><cmt>Long Pond Stream Lean-to</cmt><desc>Long Pond Stream Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="43.100495670" lon="-72.963548162"><ele>813.92</ele><name>Stratton P</name><cmt>Stratton Pond</cmt><desc>Stratton Pond</desc><sym>Waypoint</sym></wpt>
+<wpt lat="42.109683741" lon="-73.428650996"><ele>588.06</ele><name>The Hemloc</name><cmt>The Hemlocks Lean-to</cmt><desc>The Hemlocks Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="42.111024724" lon="-73.427250940"><ele>557.45</ele><name>Glen Brook</name><cmt>Glen Brook Lean-to</cmt><desc>Glen Brook Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="41.731796237" lon="-73.495805889"><ele>191.82</ele><name>Mount Algo</name><cmt>Mount Algo Lean-to</cmt><desc>Mount Algo Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="44.970000454" lon="-70.445336749"><ele>898.29</ele><name>Poplar Rid</name><cmt>Poplar Ridge Lean-to</cmt><desc>Poplar Ridge Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="43.301197401" lon="-72.951846189"><ele>793.83</ele><name>Peru Peak</name><cmt>Peru Peak</cmt><desc>Peru Peak</desc><sym>Waypoint</sym></wpt>
+<wpt lat="43.921829728" lon="-71.957437701"><ele>557.49</ele><name>Ore Hill</name><cmt>Ore Hill</cmt><desc>Ore Hill</desc><sym>Waypoint</sym></wpt>
+<wpt lat="42.887817598" lon="-73.095074186"><ele>747.14</ele><name>Melville N</name><cmt>Melville Nauheim</cmt><desc>Melville Nauheim</desc><sym>Waypoint</sym></wpt>
+<wpt lat="42.974085932" lon="-73.071692744"><ele>1086.44</ele><name>Goddard</name><cmt>Goddard</cmt><desc>Goddard</desc><sym>Waypoint</sym></wpt>
+<wpt lat="35.330872527" lon="-83.666883337"><ele>1316.79</ele><name>Sassafras </name><cmt>Sassafras Gap</cmt><desc>Sassafras Gap</desc><sym>Waypoint</sym></wpt>
+<wpt lat="34.629457767" lon="-84.192680249"><ele>1123.79</ele><name>Springer M</name><cmt>Springer Mountain</cmt><desc>Springer Mountain</desc><sym>Waypoint</sym></wpt>
+<wpt lat="34.650290" lon="-84.197196"><ele>892.96</ele><name>Stover Cre</name><cmt>Stover Creek</cmt><desc>Stover Creek</desc><sym>Waypoint</sym></wpt>
+<wpt lat="35.561889928" lon="-83.766376095"><ele>1324.78</ele><name>Russell Fi</name><cmt>Russell Field</cmt><desc>Russell Field</desc><sym>Waypoint</sym></wpt>
+<wpt lat="35.629855221" lon="-83.386154294"><ele>1801.93</ele><name>Icewater S</name><cmt>Icewater Spring</cmt><desc>Icewater Spring</desc><sym>Waypoint</sym></wpt>
+<wpt lat="35.564364702" lon="-83.568129989"><ele>1662.63</ele><name>Silers Bal</name><cmt>Silers Bald</cmt><desc>Silers Bald</desc><sym>Waypoint</sym></wpt>
+<wpt lat="35.566604724" lon="-83.641772253"><ele>1486.29</ele><name>Derrick Kn</name><cmt>Derrick Knob</cmt><desc>Derrick Knob</desc><sym>Waypoint</sym></wpt>
+<wpt lat="35.561885899" lon="-83.732555054"><ele>1486.08</ele><name>Spence Fie</name><cmt>Spence Field</cmt><desc>Spence Field</desc><sym>Waypoint</sym></wpt>
+<wpt lat="37.358959326" lon="-80.420678506"><ele>848.43</ele><name>Laurel Cre</name><cmt>Laurel Creek</cmt><desc>Laurel Creek</desc><sym>Waypoint</sym></wpt>
+<wpt lat="38.290566826" lon="-78.645760477"><ele>739.33</ele><name>Pinefield </name><cmt>Pinefield Hut</cmt><desc>Pinefield Hut</desc><sym>Waypoint</sym></wpt>
+<wpt lat="38.333139138" lon="-78.558357162"><ele>967.99</ele><name>Hightop Hu</name><cmt>Hightop Hut</cmt><desc>Hightop Hut</desc><sym>Waypoint</sym></wpt>
+<wpt lat="38.444085170" lon="-78.470412137"><ele>945.46</ele><name>Bearfence </name><cmt>Bearfence Mountain Hut</cmt><desc>Bearfence Mountain Hut</desc><sym>Waypoint</sym></wpt>
+<wpt lat="38.553534518" lon="-78.408300799"><ele>1038.43</ele><name>Rock Sprin</name><cmt>Rock Spring Hut</cmt><desc>Rock Spring Hut</desc><sym>Waypoint</sym></wpt>
+<wpt lat="38.63441" lon="-78.32376"><ele>996.35</ele><name>Byrds Nst3</name><cmt>Byrds Nest 3</cmt><desc>Byrds Nest 3</desc><sym>Waypoint</sym></wpt>
+<wpt lat="38.763882167" lon="-78.233624398"><ele>754.80</ele><name>Gravel Spr</name><cmt>Gravel Springs Hut</cmt><desc>Gravel Springs Hut</desc><sym>Waypoint</sym></wpt>
+<wpt lat="38.676603691" lon="-78.318897098"><ele>823.79</ele><name>Pass Mount</name><cmt>Pass Mountain Hut</cmt><desc>Pass Mountain Hut</desc><sym>Waypoint</sym></wpt>
+<wpt lat="39.110929291" lon="-77.854085128"><ele>409.46</ele><name>Bears Den </name><cmt>Bears Den Hostel</cmt><desc>Bears Den Hostel</desc><sym>Waypoint</sym></wpt>
+<wpt lat="39.090666426" lon="-77.886269852"><ele>286.14</ele><name>Sam Moore</name><cmt>Sam Moore</cmt><desc>Sam Moore</desc><sym>Waypoint</sym></wpt>
+<wpt lat="39.047630450" lon="-77.944075230"><ele>273.25</ele><name>Rod Hollow</name><cmt>Rod Hollow</cmt><desc>Rod Hollow</desc><sym>Waypoint</sym></wpt>
+<wpt lat="38.085527925" lon="-78.785547348"><ele>813.76</ele><name>Calf Mount</name><cmt>Calf Mountain</cmt><desc>Calf Mountain</desc><sym>Waypoint</sym></wpt>
+<wpt lat="37.985430011" lon="-78.883672868"><ele>484.48</ele><name>Paul C. Wo</name><cmt>Paul C. Wolfe</cmt><desc>Paul C. Wolfe</desc><sym>Waypoint</sym></wpt>
+<wpt lat="37.818967288" lon="-79.154882837"><ele>1153.18</ele><name>Seeley-Woo</name><cmt>Seeley-Woodworth</cmt><desc>Seeley-Woodworth</desc><sym>Waypoint</sym></wpt>
+<wpt lat="37.884897403" lon="-78.993631061"><ele>823.68</ele><name>Maupin Fie</name><cmt>Maupin Field</cmt><desc>Maupin Field</desc><sym>Waypoint</sym></wpt>
+<wpt lat="37.856186660" lon="-79.000499635"><ele>559.86</ele><name>Harpers Cr</name><cmt>Harpers Creek</cmt><desc>Harpers Creek</desc><sym>Waypoint</sym></wpt>
+<wpt lat="37.709441472" lon="-79.268307612"><ele>422.44</ele><name>Brown Moun</name><cmt>Brown Mountain Creek</cmt><desc>Brown Mountain Creek</desc><sym>Waypoint</sym></wpt>
+<wpt lat="38.214259136" lon="-78.742939757"><ele>798.73</ele><name>Blackrock </name><cmt>Blackrock Hut</cmt><desc>Blackrock Hut</desc><sym>Waypoint</sym></wpt>
+<wpt lat="37.385369705" lon="-80.074028605"><ele>588.79</ele><name>Johns Spri</name><cmt>Johns Spring</cmt><desc>Johns Spring</desc><sym>Waypoint</sym></wpt>
+<wpt lat="37.388183965" lon="-80.057141319"><ele>662.48</ele><name>Catawba Mo</name><cmt>Catawba Mountain</cmt><desc>Catawba Mountain</desc><sym>Waypoint</sym></wpt>
+<wpt lat="37.434613986" lon="-79.987544257"><ele>639.12</ele><name>Lamberts M</name><cmt>Lamberts Meadow</cmt><desc>Lamberts Meadow</desc><sym>Waypoint</sym></wpt>
+<wpt lat="37.419357145" lon="-79.785584578"><ele>567.21</ele><name>Wilson Cre</name><cmt>Wilson Creek</cmt><desc>Wilson Creek</desc><sym>Waypoint</sym></wpt>
+<wpt lat="37.494006800" lon="-79.547030271"><ele>952.86</ele><name>Cornelius </name><cmt>Cornelius Creek</cmt><desc>Cornelius Creek</desc><sym>Waypoint</sym></wpt>
+<wpt lat="37.530145353" lon="-79.585569822"><ele>388.25</ele><name>Bryant Rid</name><cmt>Bryant Ridge</cmt><desc>Bryant Ridge</desc><sym>Waypoint</sym></wpt>
+<wpt lat="37.612922449" lon="-79.391779051"><ele>307.66</ele><name>Johns Holl</name><cmt>Johns Hollow</cmt><desc>Johns Hollow</desc><sym>Waypoint</sym></wpt>
+<wpt lat="37.599549549" lon="-79.413198495"><ele>253.81</ele><name>Matts Cree</name><cmt>Matts Creek</cmt><desc>Matts Creek</desc><sym>Waypoint</sym></wpt>
+<wpt lat="37.155043459" lon="-80.980128178"><ele>792.13</ele><name>Jenny Knob</name><cmt>Jenny Knob</cmt><desc>Jenny Knob</desc><sym>Waypoint</sym></wpt>
+<wpt lat="37.223860692" lon="-80.824033956"><ele>801.69</ele><name>Wapiti</name><cmt>Wapiti</cmt><desc>Wapiti</desc><sym>Waypoint</sym></wpt>
+<wpt lat="37.374846870" lon="-80.758353259"><ele>1027.46</ele><name>Rice Field</name><cmt>Rice Field</cmt><desc>Rice Field</desc><sym>Waypoint</sym></wpt>
+<wpt lat="37.397568517" lon="-80.473821563"><ele>720.63</ele><name>War Spur</name><cmt>War Spur</cmt><desc>War Spur</desc><sym>Waypoint</sym></wpt>
+<wpt lat="37.354688810" lon="-80.337406421"><ele>937.42</ele><name>Sarver Hol</name><cmt>Sarver Hollow</cmt><desc>Sarver Hollow</desc><sym>Waypoint</sym></wpt>
+<wpt lat="37.387651730" lon="-80.264034531"><ele>599.33</ele><name>Niday</name><cmt>Niday</cmt><desc>Niday</desc><sym>Waypoint</sym></wpt>
+<wpt lat="36.715311554" lon="-81.509508478"><ele>1174.83</ele><name>Hurricane </name><cmt>Hurricane Mountain</cmt><desc>Hurricane Mountain</desc><sym>Waypoint</sym></wpt>
+<wpt lat="36.749391032" lon="-81.480410095"><ele>881.21</ele><name>Trimpi</name><cmt>Trimpi</cmt><desc>Trimpi</desc><sym>Waypoint</sym></wpt>
+<wpt lat="36.435401543" lon="-81.990952414"><ele>1249.20</ele><name>Iron Mount</name><cmt>Iron Mountain</cmt><desc>Iron Mountain</desc><sym>Waypoint</sym></wpt>
+<wpt lat="36.850033937" lon="-81.363166134"><ele>976.20</ele><name>Chatfield</name><cmt>Chatfield</cmt><desc>Chatfield</desc><sym>Waypoint</sym></wpt>
+<wpt lat="37.057728378" lon="-81.399340162"><ele>1343.96</ele><name>Chestnut K</name><cmt>Chestnut Knob</cmt><desc>Chestnut Knob</desc><sym>Waypoint</sym></wpt>
+<wpt lat="43.347603133" lon="-72.952565845"><ele>666.89</ele><name>Lost Pond </name><cmt>Lost Pond Shelter</cmt><desc>Lost Pond Shelter</desc><sym>Waypoint</sym></wpt>
+<wpt lat="37.093398882" lon="-81.247622564"><ele>737.75</ele><name>Jenkins</name><cmt>Jenkins</cmt><desc>Jenkins</desc><sym>Waypoint</sym></wpt>
+<wpt lat="36.644193648" lon="-81.655915783"><ele>1027.92</ele><name>Lost Mount</name><cmt>Lost Mountain</cmt><desc>Lost Mountain</desc><sym>Waypoint</sym></wpt>
+<wpt lat="36.654002559" lon="-81.498360180"><ele>1343.91</ele><name>Wise</name><cmt>Wise</cmt><desc>Wise</desc><sym>Waypoint</sym></wpt>
+<wpt lat="36.056546243" lon="-82.657132752"><ele>1264.08</ele><name>Jerry Cabi</name><cmt>Jerry Cabin</cmt><desc>Jerry Cabin</desc><sym>Waypoint</sym></wpt>
+<wpt lat="36.034857593" lon="-82.596637310"><ele>1087.08</ele><name>Flint Moun</name><cmt>Flint Mountain</cmt><desc>Flint Mountain</desc><sym>Waypoint</sym></wpt>
+<wpt lat="36.105060255" lon="-82.122218628"><ele>1909.28</ele><name>Roan High </name><cmt>Roan High Knob</cmt><desc>Roan High Knob</desc><sym>Waypoint</sym></wpt>
+<wpt lat="36.148522744" lon="-82.161178642"><ele>1350.15</ele><name>Clyde Smit</name><cmt>Clyde Smith</cmt><desc>Clyde Smith</desc><sym>Waypoint</sym></wpt>
+<wpt lat="36.112360653" lon="-82.065706178"><ele>1541.47</ele><name>Stan Murra</name><cmt>Stan Murray</cmt><desc>Stan Murray</desc><sym>Waypoint</sym></wpt>
+<wpt lat="36.123486731" lon="-82.054289886"><ele>1387.18</ele><name>Overmounta</name><cmt>Overmountain</cmt><desc>Overmountain</desc><sym>Waypoint</sym></wpt>
+<wpt lat="36.172133480" lon="-82.011122021"><ele>924.39</ele><name>Apple Hous</name><cmt>Apple House</cmt><desc>Apple House</desc><sym>Waypoint</sym></wpt>
+<wpt lat="36.104329368" lon="-82.396843982"><ele>925.92</ele><name>Curley Map</name><cmt>Curley Maple Gap</cmt><desc>Curley Maple Gap</desc><sym>Waypoint</sym></wpt>
+<wpt lat="35.951771736" lon="-82.790070768"><ele>1077.86</ele><name>Spring Mou</name><cmt>Spring Mountain</cmt><desc>Spring Mountain</desc><sym>Waypoint</sym></wpt>
+<wpt lat="35.415231406" lon="-83.773422576"><ele>876.26</ele><name>Cable Gap</name><cmt>Cable Gap</cmt><desc>Cable Gap</desc><sym>Waypoint</sym></wpt>
+<wpt lat="35.448493919" lon="-83.793975567"><ele>542.73</ele><name>Fontana Da</name><cmt>Fontana Dam</cmt><desc>Fontana Dam</desc><sym>Waypoint</sym></wpt>
+<wpt lat="35.282476921" lon="-83.582111698"><ele>1241.05</ele><name>Wesser Bal</name><cmt>Wesser Bald</cmt><desc>Wesser Bald</desc><sym>Waypoint</sym></wpt>
+<wpt lat="35.324265856" lon="-83.590184475"><ele>643.09</ele><name>A. Rufus M</name><cmt>A. Rufus Morgan</cmt><desc>A. Rufus Morgan</desc><sym>Waypoint</sym></wpt>
+<wpt lat="35.041974224" lon="-83.548062438"><ele>1449.88</ele><name>Standing I</name><cmt>Standing Indian</cmt><desc>Standing Indian</desc><sym>Waypoint</sym></wpt>
+<wpt lat="34.999015138" lon="-83.494075239"><ele>1382.40</ele><name>Carter Gap</name><cmt>Carter Gap</cmt><desc>Carter Gap</desc><sym>Waypoint</sym></wpt>
+<wpt lat="34.945944462" lon="-83.588276061"><ele>918.24</ele><name>Plumorchar</name><cmt>Plumorchard Gap</cmt><desc>Plumorchard Gap</desc><sym>Waypoint</sym></wpt>
+<wpt lat="34.655651872" lon="-84.049937742"><ele>844.88</ele><name>Gooch Moun</name><cmt>Gooch Mountain</cmt><desc>Gooch Mountain</desc><sym>Waypoint</sym></wpt>
+<wpt lat="34.735186356" lon="-83.917782044"><ele>945.42</ele><name>Walasi-yi </name><cmt>Walasi-yi Center</cmt><desc>Walasi-yi Center</desc><sym>Waypoint</sym></wpt>
+<wpt lat="34.776251008" lon="-83.824500031"><ele>903.38</ele><name>Low Gap</name><cmt>Low Gap</cmt><desc>Low Gap</desc><sym>Waypoint</sym></wpt>
+<wpt lat="34.817243047" lon="-83.766676616"><ele>1186.10</ele><name>Blue Mount</name><cmt>Blue Mountain</cmt><desc>Blue Mountain</desc><sym>Waypoint</sym></wpt>
+<wpt lat="34.882484186" lon="-83.645906590"><ele>1054.59</ele><name>Deep Gap</name><cmt>Deep Gap</cmt><desc>Deep Gap</desc><sym>Waypoint</sym></wpt>
+<wpt lat="34.712501084" lon="-83.834282095"><ele>1022.38</ele><name>Whitley Ga</name><cmt>Whitley Gap</cmt><desc>Whitley Gap</desc><sym>Waypoint</sym></wpt>
+<wpt lat="40.549330312" lon="-76.152387201"><ele>471.18</ele><name>Eagle's Ne</name><cmt>Eagle's Nest</cmt><desc>Eagle's Nest</desc><sym>Waypoint</sym></wpt>
+<wpt lat="40.513123815" lon="-76.346404261"><ele>445.82</ele><name>501</name><cmt>501</cmt><desc>501</desc><sym>Waypoint</sym></wpt>
+<wpt lat="40.754110981" lon="-75.727011503"><ele>416.24</ele><name>Bake Oven </name><cmt>Bake Oven Knob</cmt><desc>Bake Oven Knob</desc><sym>Waypoint</sym></wpt>
+<wpt lat="40.683046192" lon="-75.873846929"><ele>452.15</ele><name>Allentown </name><cmt>Allentown Hiking Club</cmt><desc>Allentown Hiking Club</desc><sym>Waypoint</sym></wpt>
+<wpt lat="40.392381221" lon="-76.994117062"><ele>361.72</ele><name>Clarks Fer</name><cmt>Clarks Ferry</cmt><desc>Clarks Ferry</desc><sym>Waypoint</sym></wpt>
+<wpt lat="40.425926256" lon="-76.879317347"><ele>350.28</ele><name>Peters Mou</name><cmt>Peters Mountain</cmt><desc>Peters Mountain</desc><sym>Waypoint</sym></wpt>
+<wpt lat="41.268244563" lon="-74.267767625"><ele>334.48</ele><name>Wildcat</name><cmt>Wildcat</cmt><desc>Wildcat</desc><sym>Waypoint</sym></wpt>
+<wpt lat="41.263274693" lon="-74.103988473"><ele>397.80</ele><name>Fingerboar</name><cmt>Fingerboard</cmt><desc>Fingerboard</desc><sym>Waypoint</sym></wpt>
+<wpt lat="41.637816797" lon="-73.532394347"><ele>214.49</ele><name>Wiley</name><cmt>Wiley</cmt><desc>Wiley</desc><sym>Waypoint</sym></wpt>
+<wpt lat="41.564540260" lon="-73.691703143"><ele>399.41</ele><name>Morgan Ste</name><cmt>Morgan Stewart</cmt><desc>Morgan Stewart</desc><sym>Waypoint</sym></wpt>
+<wpt lat="41.603824914" lon="-73.618803556"><ele>276.98</ele><name>Telephone </name><cmt>Telephone Pioneers</cmt><desc>Telephone Pioneers</desc><sym>Waypoint</sym></wpt>
+<wpt lat="42.015621189" lon="-73.451962138"><ele>506.49</ele><name>Riga Lean-</name><cmt>Riga Lean-to</cmt><desc>Riga Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="42.164794533" lon="-73.305797673"><ele>472.15</ele><name>Tom Leonar</name><cmt>Tom Leonard Lean-to</cmt><desc>Tom Leonard Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="42.288019445" lon="-73.181415672"><ele>452.53</ele><name>Upper Goos</name><cmt>Upper Goose Pond Cabin</cmt><desc>Upper Goose Pond Cabin</desc><sym>Waypoint</sym></wpt>
+<wpt lat="42.354928526" lon="-73.154037072"><ele>582.74</ele><name>October Mo</name><cmt>October Mountain Lean-to</cmt><desc>October Mountain Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="42.452113373" lon="-73.161477892"><ele>542.82</ele><name>Kay Wood L</name><cmt>Kay Wood Lean-to</cmt><desc>Kay Wood Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="42.771933861" lon="-73.136940120"><ele>672.75</ele><name>Seth Warne</name><cmt>Seth Warner</cmt><desc>Seth Warner</desc><sym>Waypoint</sym></wpt>
+<wpt lat="43.050354364" lon="-73.012432941"><ele>854.50</ele><name>Story Spri</name><cmt>Story Spring</cmt><desc>Story Spring</desc><sym>Waypoint</sym></wpt>
+<wpt lat="43.014057415" lon="-73.042941544"><ele>849.30</ele><name>Kid Gore</name><cmt>Kid Gore</cmt><desc>Kid Gore</desc><sym>Waypoint</sym></wpt>
+<wpt lat="43.638899305" lon="-72.831011602"><ele>1068.93</ele><name>Pico Camp</name><cmt>Pico Camp</cmt><desc>Pico Camp</desc><sym>Waypoint</sym></wpt>
+<wpt lat="43.564646632" lon="-72.848361654"><ele>580.26</ele><name>Governor C</name><cmt>Governor Clement</cmt><desc>Governor Clement</desc><sym>Waypoint</sym></wpt>
+<wpt lat="43.144404988" lon="-72.990977137"><ele>670.14</ele><name>William B.</name><cmt>William B. Douglas</cmt><desc>William B. Douglas</desc><sym>Waypoint</sym></wpt>
+<wpt lat="43.523540640" lon="-72.912572475"><ele>370.89</ele><name>Clarendon</name><cmt>Clarendon</cmt><desc>Clarendon</desc><sym>Waypoint</sym></wpt>
+<wpt lat="43.487855053" lon="-72.924531989"><ele>489.58</ele><name>Minerva Hi</name><cmt>Minerva Hinchey</cmt><desc>Minerva Hinchey</desc><sym>Waypoint</sym></wpt>
+<wpt lat="43.691763100" lon="-72.730148574"><ele>540.01</ele><name>Stony Broo</name><cmt>Stony Brook</cmt><desc>Stony Brook</desc><sym>Waypoint</sym></wpt>
+<wpt lat="43.679432888" lon="-72.842953095"><ele>694.34</ele><name>Tucker-Joh</name><cmt>Tucker-Johnson</cmt><desc>Tucker-Johnson</desc><sym>Waypoint</sym></wpt>
+<wpt lat="44.033037941" lon="-71.811323238"><ele>1128.39</ele><name>Beaver Bro</name><cmt>Beaver Brook</cmt><desc>Beaver Brook</desc><sym>Waypoint</sym></wpt>
+<wpt lat="43.783103836" lon="-72.111514208"><ele>409.51</ele><name>Trapper Jo</name><cmt>Trapper John</cmt><desc>Trapper John</desc><sym>Waypoint</sym></wpt>
+<wpt lat="43.876232315" lon="-72.026856146"><ele>679.80</ele><name>Hexacuba</name><cmt>Hexacuba</cmt><desc>Hexacuba</desc><sym>Waypoint</sym></wpt>
+<wpt lat="43.825351174" lon="-72.037372888"><ele>982.04</ele><name>Fire Warde</name><cmt>Fire Warden's Cabin</cmt><desc>Fire Warden's Cabin</desc><sym>Waypoint</sym></wpt>
+<wpt lat="43.702509288" lon="-72.264716893"><ele>305.85</ele><name>Velvet Roc</name><cmt>Velvet Rocks</cmt><desc>Velvet Rocks</desc><sym>Waypoint</sym></wpt>
+<wpt lat="37.000804392" lon="-81.404464021"><ele>839.82</ele><name>Knot Maul </name><cmt>Knot Maul Branch</cmt><desc>Knot Maul Branch</desc><sym>Waypoint</sym></wpt>
+<wpt lat="44.379897531" lon="-71.107432338"><ele>380.38</ele><name>Rattle Riv</name><cmt>Rattle River</cmt><desc>Rattle River</desc><sym>Waypoint</sym></wpt>
+<wpt lat="44.328862805" lon="-71.150036745"><ele>975.39</ele><name>Imp Campsi</name><cmt>Imp Campsite</cmt><desc>Imp Campsite</desc><sym>Waypoint</sym></wpt>
+<wpt lat="44.177152501" lon="-71.426591865"><ele>866.48</ele><name>Ethan Pond</name><cmt>Ethan Pond</cmt><desc>Ethan Pond</desc><sym>Waypoint</sym></wpt>
+<wpt lat="44.100743373" lon="-71.741819491"><ele>729.40</ele><name>Eliza Broo</name><cmt>Eliza Brook</cmt><desc>Eliza Brook</desc><sym>Waypoint</sym></wpt>
+<wpt lat="44.136812820" lon="-71.732295182"><ele>1148.22</ele><name>Kinsman Po</name><cmt>Kinsman Pond</cmt><desc>Kinsman Pond</desc><sym>Waypoint</sym></wpt>
+<wpt lat="44.259263648" lon="-71.195327885"><ele>1004.50</ele><name>Carter Not</name><cmt>Carter Notch Hut</cmt><desc>Carter Notch Hut</desc><sym>Waypoint</sym></wpt>
+<wpt lat="44.160238911" lon="-71.660239435"><ele>1276.82</ele><name>Greenleaf </name><cmt>Greenleaf Hut</cmt><desc>Greenleaf Hut</desc><sym>Waypoint</sym></wpt>
+<wpt lat="44.138421226" lon="-71.703117664"><ele>836.86</ele><name>Lonesome L</name><cmt>Lonesome Lake Hut</cmt><desc>Lonesome Lake Hut</desc><sym>Waypoint</sym></wpt>
+<wpt lat="44.187774399" lon="-71.568848540"><ele>1149.86</ele><name>Galehead H</name><cmt>Galehead Hut</cmt><desc>Galehead Hut</desc><sym>Waypoint</sym></wpt>
+<wpt lat="44.219300490" lon="-71.369564330"><ele>1156.56</ele><name>Mizpah Spr</name><cmt>Mizpah Spring Hut</cmt><desc>Mizpah Spring Hut</desc><sym>Waypoint</sym></wpt>
+<wpt lat="44.190686535" lon="-71.608357240"><ele>1221.75</ele><name>Garfield R</name><cmt>Garfield Ridge</cmt><desc>Garfield Ridge</desc><sym>Waypoint</sym></wpt>
+<wpt lat="45.351508181" lon="-69.498765426"><ele>324.40</ele><name>Leeman Bro</name><cmt>Leeman Brook Lean-to</cmt><desc>Leeman Brook Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="45.282735748" lon="-69.627592942"><ele>258.53</ele><name>Horseshoe </name><cmt>Horseshoe Canyon Lean-to</cmt><desc>Horseshoe Canyon Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="45.640496994" lon="-69.087402906"><ele>277.32</ele><name>Cooper Bro</name><cmt>Cooper Brook Falls Lean-to</cmt><desc>Cooper Brook Falls Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="45.747015089" lon="-69.144469018"><ele>207.22</ele><name>Wadleigh S</name><cmt>Wadleigh Stream Lean-to</cmt><desc>Wadleigh Stream Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="45.706526253" lon="-69.007383218"><ele>187.76</ele><name>Potaywadjo</name><cmt>Potaywadjo Spring Lean-to</cmt><desc>Potaywadjo Spring Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="45.886750320" lon="-68.999051425"><ele>327.11</ele><name>The Birche</name><cmt>The Birches Lean-tos</cmt><desc>The Birches Lean-tos</desc><sym>Waypoint</sym></wpt>
+<wpt lat="45.818517804" lon="-69.018470708"><ele>218.35</ele><name>Hurd Brook</name><cmt>Hurd Brook Lean-to</cmt><desc>Hurd Brook Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="45.270680419" lon="-69.745339436"><ele>371.99</ele><name>Moxie Bald</name><cmt>Moxie Bald Lean-to</cmt><desc>Moxie Bald Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="45.158029635" lon="-70.099774420"><ele>410.37</ele><name>West Carry</name><cmt>West Carry Pond Lean-to</cmt><desc>West Carry Pond Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="45.240248321" lon="-70.055482713"><ele>350.13</ele><name>Pierce Pon</name><cmt>Pierce Pond Lean-to</cmt><desc>Pierce Pond Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="44.995765427" lon="-70.341342791"><ele>957.66</ele><name>Spaulding </name><cmt>Spaulding Mountain Lean-to</cmt><desc>Spaulding Mountain Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="44.840941407" lon="-70.662116408"><ele>731.36</ele><name>Sabbath Da</name><cmt>Sabbath Day Pond Lean-to</cmt><desc>Sabbath Day Pond Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="44.904179561" lon="-70.530036455"><ele>635.44</ele><name>Piazza Roc</name><cmt>Piazza Rock Lean-to</cmt><desc>Piazza Rock Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="44.810179044" lon="-70.755877586"><ele>843.17</ele><name>Bemis Moun</name><cmt>Bemis Mountain Lean-to</cmt><desc>Bemis Mountain Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="44.598424318" lon="-70.911670991"><ele>831.98</ele><name>Baldpate L</name><cmt>Baldpate Lean-to</cmt><desc>Baldpate Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="44.564685236" lon="-70.973623777"><ele>1044.87</ele><name>Speck Pond</name><cmt>Speck Pond</cmt><desc>Speck Pond</desc><sym>Waypoint</sym></wpt>
+<wpt lat="44.525148146" lon="-70.980876005"><ele>916.92</ele><name>Full Goose</name><cmt>Full Goose</cmt><desc>Full Goose</desc><sym>Waypoint</sym></wpt>
+<wpt lat="44.488666352" lon="-71.016180815"><ele>905.58</ele><name>Carlo Col</name><cmt>Carlo Col</cmt><desc>Carlo Col</desc><sym>Waypoint</sym></wpt>
+<wpt lat="44.451798963" lon="-71.069384654"><ele>657.85</ele><name>Gentian Po</name><cmt>Gentian Pond</cmt><desc>Gentian Pond</desc><sym>Waypoint</sym></wpt>
+<wpt lat="44.161041267" lon="-71.535039043"><ele>1275.81</ele><name>Guyot</name><cmt>Guyot</cmt><desc>Guyot</desc><sym>Waypoint</sym></wpt>
+<wpt lat="44.258903089" lon="-71.318790861"><ele>1526.98</ele><name>Lake of th</name><cmt>Lake of the Clouds Hut</cmt><desc>Lake of the Clouds Hut</desc><sym>Waypoint</sym></wpt>
+<wpt lat="44.32779" lon="-71.28318"><ele>1462.49</ele><name>Madison Sp</name><cmt>Madison Spring Hut</cmt><desc>Madison Spring Hut</desc><sym>Waypoint</sym></wpt>
+<wpt lat="36.509113134" lon="-81.986062869"><ele>1241.58</ele><name>Double Spr</name><cmt>Double Springs</cmt><desc>Double Springs</desc><sym>Waypoint</sym></wpt>
+<wpt lat="38.890068423" lon="-78.083056270"><ele>393.67</ele><name>Jim n Moll</name><cmt>Jim n Molly Denton</cmt><desc>Jim n Molly Denton</desc><sym>Waypoint</sym></wpt>
+<wpt lat="40.590549315" lon="-75.941232292"><ele>267.49</ele><name>Windsor Fu</name><cmt>Windsor Furnace</cmt><desc>Windsor Furnace</desc><sym>Waypoint</sym></wpt>
+<wpt lat="38.850457943" lon="-78.163663067"><ele>592.70</ele><name>Tom Floyd </name><cmt>Tom Floyd Wayside</cmt><desc>Tom Floyd Wayside</desc><sym>Waypoint</sym></wpt>
+<wpt lat="40.633745510" lon="-75.957889512"><ele>190.23</ele><name>Eckville</name><cmt>Eckville</cmt><desc>Eckville</desc><sym>Waypoint</sym></wpt>
+<wpt lat="40.498652941" lon="-76.600123144"><ele>341.68</ele><name>Rausch Gap</name><cmt>Rausch Gap</cmt><desc>Rausch Gap</desc><sym>Waypoint</sym></wpt>
+<wpt lat="40.839396394" lon="-75.359393144"><ele>430.23</ele><name>Leroy A. S</name><cmt>Leroy A. Smith</cmt><desc>Leroy A. Smith</desc><sym>Waypoint</sym></wpt>
+<wpt lat="40.936721258" lon="-75.186404927"><ele>454.18</ele><name>Kirkridge</name><cmt>Kirkridge</cmt><desc>Kirkridge</desc><sym>Waypoint</sym></wpt>
+<wpt lat="40.301998695" lon="-77.086898386"><ele>380.73</ele><name>Darlington</name><cmt>Darlington</cmt><desc>Darlington</desc><sym>Waypoint</sym></wpt>
+<wpt lat="43.364127700" lon="-72.946398536"><ele>452.87</ele><name>Big Branch</name><cmt>Big Branch</cmt><desc>Big Branch</desc><sym>Waypoint</sym></wpt>
+<wpt lat="44.195825968" lon="-71.494310087"><ele>796.58</ele><name>Zealand Fa</name><cmt>Zealand Falls Hut</cmt><desc>Zealand Falls Hut</desc><sym>Waypoint</sym></wpt>
+<wpt lat="43.644885144" lon="-72.853396338"><ele>785.61</ele><name>Churchhill</name><cmt>Churchhill Scott</cmt><desc>Churchhill Scott</desc><sym>Waypoint</sym></wpt>
+<wpt lat="43.606058949" lon="-72.822491646"><ele>1187.66</ele><name>Cooper Lod</name><cmt>Cooper Lodge</cmt><desc>Cooper Lodge</desc><sym>Waypoint</sym></wpt>
+<wpt lat="45.143886542" lon="-70.329635444"><ele>963.71</ele><name>Horns Pond</name><cmt>Horns Pond Lean-to (west)</cmt><desc>Horns Pond Lean-to (west)</desc><sym>Waypoint</sym></wpt>
+<wpt lat="45.143881546" lon="-70.329656334"><ele>962.34</ele><name>Horns Pond</name><cmt>Horns Pond Lean-to (east)</cmt><desc>Horns Pond Lean-to (east)</desc><sym>Waypoint</sym></wpt>
+<wpt lat="45.531056990" lon="-69.315128006"><ele>588.70</ele><name>Carl A. Ne</name><cmt>Carl A. Newhall Lean-to</cmt><desc>Carl A. Newhall Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="45.560895046" lon="-69.235122234"><ele>728.41</ele><name>Logan Broo</name><cmt>Logan Brook Lean-to</cmt><desc>Logan Brook Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="43.440585721" lon="-72.929472768"><ele>622.40</ele><name>Greenwall</name><cmt>Greenwall</cmt><desc>Greenwall</desc><sym>Waypoint</sym></wpt>
+<wpt lat="43.395433702" lon="-72.954660182"><ele>593.32</ele><name>Lula Tye</name><cmt>Lula Tye</cmt><desc>Lula Tye</desc><sym>Waypoint</sym></wpt>
+<wpt lat="42.608621390" lon="-73.184151671"><ele>814.63</ele><name>Mark Noepe</name><cmt>Mark Noepel Lean-to</cmt><desc>Mark Noepel Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="42.667759466" lon="-73.170150256"><ele>670.63</ele><name>Wilbur Cle</name><cmt>Wilbur Clearing Lean-to</cmt><desc>Wilbur Clearing Lean-to</desc><sym>Waypoint</sym></wpt>
+<wpt lat="36.313981646" lon="-82.129397258"><ele>634.62</ele><name>Watauga La</name><cmt>Watauga Lake</cmt><desc>Watauga Lake</desc><sym>Waypoint</sym></wpt>
+<wpt lat="36.278758507" lon="-82.136233197"><ele>683.97</ele><name>Laurel For</name><cmt>Laurel Fork</cmt><desc>Laurel Fork</desc><sym>Waypoint</sym></wpt>
+<wpt lat="36.000157033" lon="-82.478089273"><ele>1541.55</ele><name>Bald Mount</name><cmt>Bald Mountain</cmt><desc>Bald Mountain</desc><sym>Waypoint</sym></wpt>
+<wpt lat="35.144224762" lon="-83.572471783"><ele>1403.06</ele><name>Siler Bald</name><cmt>Siler Bald</cmt><desc>Siler Bald</desc><sym>Waypoint</sym></wpt>
+<wpt lat="34.740027848" lon="-83.937426302"><ele>1355.71</ele><name>Blood Moun</name><cmt>Blood Mountain</cmt><desc>Blood Mountain</desc><sym>Waypoint</sym></wpt>
+<wpt lat="34.737239361" lon="-83.954952951"><ele>1103.97</ele><name>Woods Hole</name><cmt>Woods Hole</cmt><desc>Woods Hole</desc><sym>Waypoint</sym></wpt>
+<wpt lat="37.400951530" lon="-80.577023143"><ele>1073.91</ele><name>Bailey Gap</name><cmt>Bailey Gap</cmt><desc>Bailey Gap</desc><sym>Waypoint</sym></wpt>
+<wpt lat="37.467115747" lon="-79.701206481"><ele>587.82</ele><name>Bobblets G</name><cmt>Bobblets Gap</cmt><desc>Bobblets Gap</desc><sym>Waypoint</sym></wpt>
+<wpt lat="37.380155633" lon="-80.184601293"><ele>565.56</ele><name>Pickle Bra</name><cmt>Pickle Branch</cmt><desc>Pickle Branch</desc><sym>Waypoint</sym></wpt>
+<wpt lat="36.220386904" lon="-81.985141213"><ele>961.72</ele><name>Mountainee</name><cmt>Mountaineer</cmt><desc>Mountaineer</desc><sym>Waypoint</sym></wpt>
+<wpt lat="35.189464988" lon="-83.564409892"><ele>1379.60</ele><name>Wayah</name><cmt>Wayah</cmt><desc>Wayah</desc><sym>Waypoint</sym></wpt>
+<wpt lat="45.734160" lon="-69.046854"><ele>156</ele><name>Nahmakanta</name><cmt>Nahmakanta</cmt><desc>Nahmakanta</desc><sym>Waypoint</sym></wpt>
+<wpt lat="35.804997163" lon="-82.949780902"><ele>1217.34</ele><name>Roaring Fo</name><cmt>Roaring Fork</cmt><desc>Roaring Fork</desc><sym>Waypoint</sym></wpt>
+<wpt lat="39.18765" lon="-77.79803"><ele>426.71</ele><name>Blackburn </name><cmt>Blackburn Trail Center</cmt><desc>Blackburn Trail Center</desc><sym>Waypoint</sym></wpt>
+<wpt lat="43.404082540" lon="-72.953146061"><ele>566.50</ele><name>Little Roc</name><cmt>Little Rock Pond</cmt><desc>Little Rock Pond</desc><sym>Waypoint</sym></wpt></gpx>

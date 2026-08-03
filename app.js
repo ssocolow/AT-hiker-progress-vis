@@ -4,7 +4,38 @@ document.addEventListener("DOMContentLoaded", () => {
   let hikerMarker;
   let trailPathPoints = [];
   let currentLocation = null;
-  let totalTrailMiles = 1968.56;
+  let totalTrailMiles = 2197.9; // Official trail length in 2026
+  let activeTileLayer;
+  let sheltersList = [];
+  let shelterMarkers = [];
+  let sheltersLayer = null;
+
+  // Mileage anchors mapping simplified GPX cumulative miles to official AT miles
+  const mileageAnchors = [
+    { gpx: 0.0, official: 0.0 },
+    { gpx: 181.28, official: 199.70 },
+    { gpx: 414.94, official: 469.00 },
+    { gpx: 916.39, official: 1023.70 },
+    { gpx: 1172.19, official: 1295.50 },
+    { gpx: 1678.15, official: 1852.80 },
+    { gpx: 1968.56, official: 2197.90 }
+  ];
+
+  // Convert simplified GPX miles to official AT miles using piecewise linear interpolation
+  function gpxToOfficialMile(gpxMile) {
+    if (gpxMile <= mileageAnchors[0].gpx) return mileageAnchors[0].official;
+    if (gpxMile >= mileageAnchors[mileageAnchors.length - 1].gpx) return mileageAnchors[mileageAnchors.length - 1].official;
+    
+    for (let i = 0; i < mileageAnchors.length - 1; i++) {
+      const a = mileageAnchors[i];
+      const b = mileageAnchors[i+1];
+      if (gpxMile >= a.gpx && gpxMile <= b.gpx) {
+        const ratio = (gpxMile - a.gpx) / (b.gpx - a.gpx);
+        return a.official + ratio * (b.official - a.official);
+      }
+    }
+    return gpxMile;
+  }
   
   // Elements
   const hikerTitle = document.getElementById("hiker-title");
@@ -33,18 +64,28 @@ document.addEventListener("DOMContentLoaded", () => {
       icon.setAttribute("data-lucide", "menu");
     }
     lucide.createIcons();
+
+    // Move map-controller if sidebar is active on mobile
+    const controller = document.getElementById("map-controller");
+    if (controller) {
+      if (sidebar.classList.contains("active")) {
+        controller.classList.add("sidebar-active");
+      } else {
+        controller.classList.remove("sidebar-active");
+      }
+    }
   });
 
-  // Milestones Data (Coordinates represented as miles from GA terminus)
+  // Milestones Data (Coordinates represented as official miles from GA terminus)
   const milestones = [
     { name: "Springer Mountain, GA", mile: 0.0, desc: "Southern Terminus of the AT" },
-    { name: "Great Smoky Mountains", mile: 200.0, desc: "Clingmans Dome ridge line" },
-    { name: "Damascus, VA", mile: 470.0, desc: "Trail Town USA" },
-    { name: "Shenandoah National Park", mile: 900.0, desc: "Skyline Drive crossing" },
-    { name: "Harpers Ferry, WV", mile: 1025.0, desc: "Psychological Halfway Point" },
-    { name: "Delaware Water Gap, PA", mile: 1290.0, desc: "NJ / PA border crossing" },
-    { name: "Mount Washington, NH", mile: 1850.0, desc: "Highest peak in the Northeast" },
-    { name: "Mount Katahdin, ME", mile: 1968.6, desc: "Northern Terminus of the AT" }
+    { name: "Great Smoky Mountains", mile: 199.7, desc: "Clingmans Dome ridge line" },
+    { name: "Damascus, VA", mile: 469.0, desc: "Trail Town USA" },
+    { name: "Shenandoah National Park", mile: 905.0, desc: "Skyline Drive crossing" },
+    { name: "Harpers Ferry, WV", mile: 1023.7, desc: "Psychological Halfway Point" },
+    { name: "Delaware Water Gap, PA", mile: 1295.5, desc: "NJ / PA border crossing" },
+    { name: "Mount Washington, NH", mile: 1852.8, desc: "Highest peak in the Northeast" },
+    { name: "Mount Katahdin, ME", mile: 2197.9, desc: "Northern Terminus of the AT" }
   ];
 
   // Helper: Haversine distance
@@ -60,17 +101,31 @@ document.addEventListener("DOMContentLoaded", () => {
     return R * c;
   }
 
+  // Base map layers definition
+  const tileLayers = {
+    voyager: L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+      maxZoom: 20
+    }),
+    topo: L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+      attribution: 'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)',
+      maxZoom: 17
+    }),
+    satellite: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+      attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the Giz User Community',
+      maxZoom: 19
+    })
+  };
+
   // Initializing Leaflet Map
   function initMap(centerLat, centerLon) {
     map = L.map('map', {
       zoomControl: false // disabled default to position top-right in CSS
     }).setView([centerLat, centerLon], 8);
 
-    // Beautiful CartoDB Voyager tiles (clean terrain & outdoor details)
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-      maxZoom: 20
-    }).addTo(map);
+    // Add default layer
+    activeTileLayer = tileLayers.voyager;
+    activeTileLayer.addTo(map);
 
     // Zoom controls at top-right
     L.control.zoom({
@@ -78,11 +133,25 @@ document.addEventListener("DOMContentLoaded", () => {
     }).addTo(map);
   }
 
+  // Switch base map style
+  function switchMapStyle(styleKey) {
+    if (!map || !tileLayers[styleKey]) return;
+    if (activeTileLayer === tileLayers[styleKey]) return;
+    
+    map.removeLayer(activeTileLayer);
+    activeTileLayer = tileLayers[styleKey];
+    activeTileLayer.addTo(map);
+    
+    // Update active button state
+    document.querySelectorAll('.style-btn').forEach(btn => btn.classList.remove('active'));
+    document.getElementById(`style-${styleKey}`).classList.add('active');
+  }
+
   // Load configuration & data
   async function loadData() {
     try {
-      // 1. Fetch current hiker location
-      const locResponse = await fetch('current_location.json');
+      // 1. Fetch current hiker location with a cache buster
+      const locResponse = await fetch(`current_location.json?t=${Date.now()}`);
       if (!locResponse.ok) throw new Error("Could not load current_location.json");
       currentLocation = await locResponse.json();
 
@@ -91,9 +160,14 @@ document.addEventListener("DOMContentLoaded", () => {
       if (!trailResponse.ok) throw new Error("Could not load public/at_trail.json");
       trailPathPoints = await trailResponse.json();
       
-      // Calculate last point distance
-      if (trailPathPoints.length > 0) {
-        totalTrailMiles = trailPathPoints[trailPathPoints.length - 1][2];
+      // 3. Fetch shelters data
+      try {
+        const sheltersResponse = await fetch('public/shelters.json');
+        if (sheltersResponse.ok) {
+          sheltersList = await sheltersResponse.json();
+        }
+      } catch (err) {
+        console.warn("Failed to load shelters.json:", err);
       }
 
       // Initialize page
@@ -127,16 +201,32 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     }
 
-    const milesFromSpringer = trailPathPoints[closestIndex][2];
+    const gpxMilesFromSpringer = trailPathPoints[closestIndex][2];
+    const officialMilesFromSpringer = gpxToOfficialMile(gpxMilesFromSpringer);
     
-    // Calculate progress depending on hike direction
+    // Calculate progress depending on hike direction, with support for manual currentMileage override
     let completedMiles, remainingMiles;
-    if (isSobo) {
-      completedMiles = totalTrailMiles - milesFromSpringer;
-      remainingMiles = milesFromSpringer;
+    const manualMileage = parseFloat(currentLocation.currentMileage);
+    
+    if (currentLocation.currentMileage !== undefined && currentLocation.currentMileage !== null && !isNaN(manualMileage)) {
+      if (isSobo) {
+        // Hiker is Southbound, but manual mileage is provided as Northbound (from Springer)
+        completedMiles = Math.max(0, totalTrailMiles - manualMileage);
+        remainingMiles = manualMileage;
+      } else {
+        // Hiker is Northbound
+        completedMiles = manualMileage;
+        remainingMiles = Math.max(0, totalTrailMiles - completedMiles);
+      }
     } else {
-      completedMiles = milesFromSpringer;
-      remainingMiles = Math.max(0, totalTrailMiles - completedMiles);
+      // Fallback: calculate mileage by projecting coordinates onto the GPX path and applying piecewise linear interpolation
+      if (isSobo) {
+        completedMiles = totalTrailMiles - officialMilesFromSpringer;
+        remainingMiles = officialMilesFromSpringer;
+      } else {
+        completedMiles = officialMilesFromSpringer;
+        remainingMiles = Math.max(0, totalTrailMiles - completedMiles);
+      }
     }
     const progressPercent = (completedMiles / totalTrailMiles) * 100;
 
@@ -312,16 +402,103 @@ document.addEventListener("DOMContentLoaded", () => {
       iconAnchor: [8, 8]
     });
     hikerMarker = L.marker([lat, lon], { icon: pulseIcon }).addTo(map);
-    hikerMarker.bindPopup(`<b>${name} is here!</b><br>Mile ${completedMiles.toFixed(1)} (SOBO)<br>${coordString}`).openPopup();
+    hikerMarker.bindPopup(`<b>${name} is here!</b><br>Mile ${completedMiles.toFixed(1)} (${direction})<br>${coordString}`).openPopup();
 
     // Render Milestone list in timeline
     renderMilestones(completedMiles, isSobo);
+
+    // Initialize and display shelters
+    initShelters();
+
+    // Setup map style switch listeners
+    document.getElementById('style-voyager').addEventListener('click', () => switchMapStyle('voyager'));
+    document.getElementById('style-topo').addEventListener('click', () => switchMapStyle('topo'));
+    document.getElementById('style-satellite').addEventListener('click', () => switchMapStyle('satellite'));
 
     // Fit map bounds slightly to include starting view, with focus on the current marker
     map.setView([lat, lon], 9);
 
     // Setup Lucide icons
     lucide.createIcons();
+  }
+
+  // Initialize and render shelters
+  function initShelters() {
+    if (!sheltersList || sheltersList.length === 0) return;
+    
+    shelterMarkers = sheltersList.map(s => {
+      const marker = L.circleMarker([s.lat, s.lon], {
+        radius: 4,
+        fillColor: '#10b981', // emerald
+        color: '#ffffff',
+        weight: 1,
+        opacity: 0.9,
+        fillOpacity: 0.85
+      });
+      
+      const popupContent = `
+        <div class="shelter-popup">
+          <h4>${s.name}</h4>
+          <div style="display: flex; gap: 4px; flex-wrap: wrap;">
+            <span class="shelter-badge ${s.type.toLowerCase()}">${s.type}</span>
+            ${s.capacity && s.capacity !== '0' && s.capacity !== 'Unknown' ? `<span class="shelter-badge" style="background: rgba(255,255,255,0.05); color: var(--text-main);">Sleeps ${s.capacity}</span>` : ''}
+          </div>
+          ${s.ele ? `<div class="shelter-ele">Elevation: ${(s.ele * 3.28084).toFixed(0)} ft (${s.ele.toFixed(0)} m)</div>` : ''}
+          ${s.state ? `<div class="shelter-state">State: ${s.state}</div>` : ''}
+          ${s.notes ? `<p class="shelter-notes">${s.notes}</p>` : ''}
+        </div>
+      `;
+      marker.bindPopup(popupContent, {
+        className: 'custom-leaflet-popup'
+      });
+      
+      marker.bindTooltip(s.name, {
+        direction: 'top',
+        className: 'custom-leaflet-tooltip'
+      });
+      
+      return marker;
+    });
+    
+    sheltersLayer = L.layerGroup(shelterMarkers);
+    
+    // Add event listeners
+    map.on('zoomend', updateSheltersVisibility);
+    document.getElementById("toggle-shelters").addEventListener("change", updateSheltersVisibility);
+    
+    // Initial draw
+    updateSheltersVisibility();
+  }
+  
+  function updateSheltersVisibility() {
+    if (!map || !sheltersLayer) return;
+    
+    const zoom = map.getZoom();
+    const showSheltersChecked = document.getElementById("toggle-shelters").checked;
+    
+    if (!showSheltersChecked) {
+      if (map.hasLayer(sheltersLayer)) {
+        map.removeLayer(sheltersLayer);
+      }
+      return;
+    }
+    
+    // Show shelters if zoom is >= 7
+    if (zoom >= 7) {
+      if (!map.hasLayer(sheltersLayer)) {
+        map.addLayer(sheltersLayer);
+      }
+      
+      // Scale radius based on zoom level
+      const radius = zoom >= 12 ? 6.5 : (zoom >= 10 ? 5 : (zoom >= 8 ? 4 : 3));
+      shelterMarkers.forEach(marker => {
+        marker.setRadius(radius);
+      });
+    } else {
+      if (map.hasLayer(sheltersLayer)) {
+        map.removeLayer(sheltersLayer);
+      }
+    }
   }
 
   // Render Milestones in Timeline
@@ -355,6 +532,14 @@ document.addEventListener("DOMContentLoaded", () => {
       if (isCompleted) statusClass = "completed";
       else if (isCurrent) statusClass = "current";
       
+      // Calculate status badge HTML
+      let badgeHtml = "";
+      if (isCurrent) {
+        badgeHtml = `<span class="milestone-badge current-badge">Next Target</span>`;
+      } else if (isCompleted) {
+        badgeHtml = `<span class="milestone-badge completed-badge">Passed</span>`;
+      }
+      
       // Calculate mileage distance from hiker's starting terminus
       let displayMile = isSobo ? (totalTrailMiles - m.mile) : m.mile;
       if (Math.abs(displayMile) < 0.1) displayMile = 0.0;
@@ -365,7 +550,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="timeline-dot"></div>
         <div class="timeline-content">
           <div class="timeline-header">
-            <span class="timeline-title">${m.name}</span>
+            <span class="timeline-title">${m.name}${badgeHtml ? ' ' + badgeHtml : ''}</span>
             <span class="timeline-mile">${displayMile.toFixed(0)} mi</span>
           </div>
           <p class="timeline-desc">${m.desc}</p>
