@@ -2,11 +2,8 @@ name: Auto Update Hiker Location
 
 on:
   schedule:
-    # Runs daily at 7:00 PM Pacific Standard Time (which is 03:00 UTC during Standard Time)
-    # E.g. '0 3 * * *' runs at 3:00 AM UTC.
-    # Note: 7 PM PDT (Daylight) is 2:00 AM UTC. 7 PM PST (Standard) is 3:00 AM UTC.
-    # We will trigger it at 2:00 AM UTC daily. You can adjust this to run more frequently if desired (e.g. every 4 hours)!
-    - cron: '0 2 * * *'
+    # Runs every 30 minutes to keep Audrey's tracker up-to-date in near real-time
+    - cron: '*/30 * * * *'
   workflow_dispatch: # Allows you to manually trigger the update from the GitHub "Actions" tab at any time
 
 permissions:
