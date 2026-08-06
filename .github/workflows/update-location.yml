@@ -2,8 +2,8 @@ name: Auto Update Hiker Location
 
 on:
   schedule:
-    # Runs every 30 minutes to keep Audrey's tracker up-to-date in near real-time
-    - cron: '*/30 * * * *'
+    # Runs on minute 15 and 45 of every hour to keep Audrey's tracker up-to-date in near real-time
+    - cron: '15,45 * * * *'
   workflow_dispatch: # Allows you to manually trigger the update from the GitHub "Actions" tab at any time
 
 permissions:
