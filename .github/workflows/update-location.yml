@@ -1,0 +1,42 @@
+name: Auto Update Hiker Location
+
+on:
+  schedule:
+    # Runs daily at 7:00 PM Pacific Standard Time (which is 03:00 UTC during Standard Time)
+    # E.g. '0 3 * * *' runs at 3:00 AM UTC.
+    # Note: 7 PM PDT (Daylight) is 2:00 AM UTC. 7 PM PST (Standard) is 3:00 AM UTC.
+    # We will trigger it at 2:00 AM UTC daily. You can adjust this to run more frequently if desired (e.g. every 4 hours)!
+    - cron: '0 2 * * *'
+  workflow_dispatch: # Allows you to manually trigger the update from the GitHub "Actions" tab at any time
+
+permissions:
+  contents: write # Grants the workflow permissions to push commits back to the repository
+
+jobs:
+  update-location:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Run location updater script
+        run: node scripts/update-location.js
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Check if current_location.json was updated
+          if git status --porcelain | grep current_location.json; then
+            git add current_location.json
+            git commit -m "Auto-update Audrey's location from Garmin LiveTrack"
+            git push
+          else
+            echo "No location updates found. current_location.json is already up to date."
+          fi
