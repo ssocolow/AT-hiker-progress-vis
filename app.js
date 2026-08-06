@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let sheltersList = [];
   let shelterMarkers = [];
   let sheltersLayer = null;
+  let mileMarkers = [];
 
   // Mileage anchors mapping simplified GPX cumulative miles to official AT miles
   const mileageAnchors = [
@@ -150,6 +151,16 @@ document.addEventListener("DOMContentLoaded", () => {
       if (!trailResponse.ok) throw new Error("Could not load public/at_trail.json");
       trailPathPoints = await trailResponse.json();
       
+      // 2b. Fetch high-accuracy mile markers
+      try {
+        const markersResponse = await fetch('public/mile_markers.json');
+        if (markersResponse.ok) {
+          mileMarkers = await markersResponse.json();
+        }
+      } catch (err) {
+        console.warn("Failed to load mile_markers.json:", err);
+      }
+      
       // 3. Fetch shelters data
       try {
         const sheltersResponse = await fetch('public/shelters.json');
@@ -178,7 +189,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Set up Leaflet Map
     initMap(lat, lon);
 
-    // Find the closest point on the trail to current location
+    // Find the closest point on the trail to current location for track line rendering
     let minDistance = Infinity;
     let closestIndex = 0;
     
@@ -191,8 +202,23 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     }
 
-    const gpxMilesFromSpringer = trailPathPoints[closestIndex][2];
-    const officialMilesFromSpringer = gpxToOfficialMile(gpxMilesFromSpringer);
+    // Determine official mileage: use the high-accuracy mile markers if loaded, fallback to GPX interpolation
+    let officialMilesFromSpringer = 0;
+    if (mileMarkers && mileMarkers.length > 0) {
+      let minMarkerDist = Infinity;
+      let closestMarkerIdx = 0;
+      for (let i = 0; i < mileMarkers.length; i++) {
+        const dist = haversineDistance(lat, lon, mileMarkers[i].lat, mileMarkers[i].lon);
+        if (dist < minMarkerDist) {
+          minMarkerDist = dist;
+          closestMarkerIdx = i;
+        }
+      }
+      officialMilesFromSpringer = mileMarkers[closestMarkerIdx].mile;
+    } else {
+      const gpxMilesFromSpringer = trailPathPoints[closestIndex][2];
+      officialMilesFromSpringer = gpxToOfficialMile(gpxMilesFromSpringer);
+    }
     
     // Calculate progress depending on hike direction, with support for manual currentMileage override
     let completedMiles, remainingMiles;
