@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const GARMIN_URL = 'https://live.garmin.com/session/1ae7cca0-fc46-858d-97da-e1716a289601/token/2CA2AD987BDDC67CA234EADA34F8CE9';
+const GARMIN_URL = 'https://live.garmin.com/session/2e825f75-9358-8771-b127-3f35d1590101/token/15BC93DA9298BD73766F0B2F0CC3618';
 const JSON_FILE_PATH = path.join(__dirname, '../current_location.json');
 
 async function updateLocation() {
@@ -107,7 +107,7 @@ async function updateLocation() {
     currentData.latitude = newLat;
     currentData.longitude = newLon;
     currentData.date = newDate;
-    
+
     // Set currentMileage to null so the website calculates the completed mileage dynamically from coordinates.
     // If you ever want to force a manual override in current_location.json, you can edit it manually.
     currentData.currentMileage = null;
